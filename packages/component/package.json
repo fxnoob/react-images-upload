@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bryanjtc/react-images-upload/tree/master/src/component"
+    "url": "https://github.com/bryanjtc/react-images-upload.git"
   },
   "files": [
     "./dist/**",
@@ -42,7 +42,8 @@
   },
   "scripts": {
     "prepublishOnly": "yarn run build",
-    "build": "tsup"
+    "build": "tsup",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "image",
