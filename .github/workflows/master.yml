@@ -17,13 +17,13 @@ jobs:
       - name: Set yarn config
         run: yarn config set npmScopes.starlord25.npmAuthToken $NPM_AUTH_TOKEN
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
       - name: Build
         run: yarn build-all
       - name: Publish package
         run: yarn release-all
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Publish example
         run: yarn deploy
