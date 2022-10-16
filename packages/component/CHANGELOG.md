@@ -1,3 +1,9 @@
+# [v1.0.4](https://github.com/bryanjtc/react-images-upload/compare/v1.0.3...v1.0.4) (2022-10-16)
+
+### Others
+
+- 🐛 [`9e2d306`](https://github.com/bryanjtc/react-images-upload/commit/9e2d306) fix: Fix tag and release
+
 # v1.0.0 (2022-10-16)
 
 ### Others
