@@ -107,7 +107,6 @@ class ReactImageUploadComponent extends React.Component {
         dataURLs.push(newFileData.dataURL);
         files.push(newFileData.file);
       });
-
       this.setState({ pictures: dataURLs, files: files });
     });
   }

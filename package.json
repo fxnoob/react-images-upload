@@ -21,6 +21,7 @@
     "@semantic-release/npm": "^9.0.1",
     "gitmojis": "^3.12.0",
     "semantic-release": "^19.0.5",
+    "semantic-release-gitmoji": "^1.4.5",
     "semantic-release-monorepo": "^7.0.5"
   },
   "scripts": {

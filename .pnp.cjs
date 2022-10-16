@@ -44,6 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/npm", "virtual:93ff9e54e7e85ba03f8777529e2e31fd687b3208f0bfd29f9526626fccebedcf25fd704ae938492bcd5692d38a16927bd020804d445cde5885dc772e9e1e1ff9#npm:9.0.1"],\
             ["gitmojis", "npm:3.12.0"],\
             ["semantic-release", "npm:19.0.5"],\
+            ["semantic-release-gitmoji", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:1.4.5"],\
             ["semantic-release-monorepo", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:7.0.5"]\
           ],\
           "linkType": "SOFT"\
@@ -4576,6 +4577,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:18.2.0"],\
             ["react-flip-move", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:3.0.4"],\
             ["semantic-release", "npm:19.0.5"],\
+            ["semantic-release-gitmoji", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:1.4.5"],\
             ["semantic-release-monorepo", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:7.0.5"],\
             ["tsup", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:6.2.3"],\
             ["webpack", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:5.74.0"]\
@@ -4603,6 +4605,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:18.2.0"],\
             ["react-flip-move", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:3.0.4"],\
             ["semantic-release", "npm:19.0.5"],\
+            ["semantic-release-gitmoji", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:1.4.5"],\
             ["semantic-release-monorepo", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:7.0.5"],\
             ["tsup", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:6.2.3"],\
             ["webpack", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:5.74.0"]\
@@ -11911,6 +11914,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["git-up", [\
+        ["npm:7.0.0", {\
+          "packageLocation": "./.yarn/cache/git-up-npm-7.0.0-5e37fa590f-2faadbab51.zip/node_modules/git-up/",\
+          "packageDependencies": [\
+            ["git-up", "npm:7.0.0"],\
+            ["is-ssh", "npm:1.4.0"],\
+            ["parse-url", "npm:8.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["git-url-parse", [\
+        ["npm:13.1.0", {\
+          "packageLocation": "./.yarn/cache/git-url-parse-npm-13.1.0-724765d793-212a9b0343.zip/node_modules/git-url-parse/",\
+          "packageDependencies": [\
+            ["git-url-parse", "npm:13.1.0"],\
+            ["git-up", "npm:7.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["gitmojis", [\
         ["npm:3.12.0", {\
           "packageLocation": "./.yarn/cache/gitmojis-npm-3.12.0-530c93a30b-3a71325a5f.zip/node_modules/gitmojis/",\
@@ -13402,6 +13426,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["is-ssh", [\
+        ["npm:1.4.0", {\
+          "packageLocation": "./.yarn/cache/is-ssh-npm-1.4.0-c6d7eec087-75eaa17b53.zip/node_modules/is-ssh/",\
+          "packageDependencies": [\
+            ["is-ssh", "npm:1.4.0"],\
+            ["protocols", "npm:2.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["is-stream", [\
         ["npm:1.1.0", {\
           "packageLocation": "./.yarn/cache/is-stream-npm-1.1.0-818ecbf6bb-063c6bec9d.zip/node_modules/is-stream/",\
@@ -13531,6 +13565,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lodash.isplainobject", "npm:4.0.6"],\
             ["lodash.isstring", "npm:4.0.1"],\
             ["lodash.uniqby", "npm:4.7.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["issue-regex", [\
+        ["npm:3.1.0", {\
+          "packageLocation": "./.yarn/cache/issue-regex-npm-3.1.0-a9aa77e9c8-2c7593d53f.zip/node_modules/issue-regex/",\
+          "packageDependencies": [\
+            ["issue-regex", "npm:3.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -14922,6 +14965,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["lodash.clonedeep", [\
+        ["npm:4.5.0", {\
+          "packageLocation": "./.yarn/cache/lodash.clonedeep-npm-4.5.0-fbc3cda4e5-92c46f094b.zip/node_modules/lodash.clonedeep/",\
+          "packageDependencies": [\
+            ["lodash.clonedeep", "npm:4.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["lodash.debounce", [\
         ["npm:4.0.8", {\
           "packageLocation": "./.yarn/cache/lodash.debounce-npm-4.0.8-f1d6e09799-a3f527d22c.zip/node_modules/lodash.debounce/",\
@@ -14981,6 +15033,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lodash.merge-npm-4.6.2-77cb4416bf-ad580b4bdb.zip/node_modules/lodash.merge/",\
           "packageDependencies": [\
             ["lodash.merge", "npm:4.6.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash.mergewith", [\
+        ["npm:4.6.2", {\
+          "packageLocation": "./.yarn/cache/lodash.mergewith-npm-4.6.2-7d2d4201ec-a6db2a9339.zip/node_modules/lodash.mergewith/",\
+          "packageDependencies": [\
+            ["lodash.mergewith", "npm:4.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -16721,6 +16782,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["error-ex", "npm:1.3.2"],\
             ["json-parse-even-better-errors", "npm:2.3.1"],\
             ["lines-and-columns", "npm:1.2.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["parse-path", [\
+        ["npm:7.0.0", {\
+          "packageLocation": "./.yarn/cache/parse-path-npm-7.0.0-ceda41e594-244b46523a.zip/node_modules/parse-path/",\
+          "packageDependencies": [\
+            ["parse-path", "npm:7.0.0"],\
+            ["protocols", "npm:2.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["parse-url", [\
+        ["npm:8.1.0", {\
+          "packageLocation": "./.yarn/cache/parse-url-npm-8.1.0-0995f15c34-b93e21ab4c.zip/node_modules/parse-url/",\
+          "packageDependencies": [\
+            ["parse-url", "npm:8.1.0"],\
+            ["parse-path", "npm:7.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -18842,6 +18923,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["protocols", [\
+        ["npm:2.0.1", {\
+          "packageLocation": "./.yarn/cache/protocols-npm-2.0.1-e2bc74d1c1-4a9bef6aa0.zip/node_modules/protocols/",\
+          "packageDependencies": [\
+            ["protocols", "npm:2.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["proxy-addr", [\
         ["npm:2.0.7", {\
           "packageLocation": "./.yarn/cache/proxy-addr-npm-2.0.7-dae6552872-29c6990ce9.zip/node_modules/proxy-addr/",\
@@ -19163,6 +19253,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/npm", "virtual:93ff9e54e7e85ba03f8777529e2e31fd687b3208f0bfd29f9526626fccebedcf25fd704ae938492bcd5692d38a16927bd020804d445cde5885dc772e9e1e1ff9#npm:9.0.1"],\
             ["gitmojis", "npm:3.12.0"],\
             ["semantic-release", "npm:19.0.5"],\
+            ["semantic-release-gitmoji", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:1.4.5"],\
             ["semantic-release-monorepo", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:7.0.5"]\
           ],\
           "linkType": "SOFT"\
@@ -20206,6 +20297,38 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["semver-diff", "npm:3.1.1"],\
             ["signale", "npm:1.4.0"],\
             ["yargs", "npm:16.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["semantic-release-gitmoji", [\
+        ["npm:1.4.5", {\
+          "packageLocation": "./.yarn/cache/semantic-release-gitmoji-npm-1.4.5-67605da6bd-c84e226b9a.zip/node_modules/semantic-release-gitmoji/",\
+          "packageDependencies": [\
+            ["semantic-release-gitmoji", "npm:1.4.5"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:1.4.5", {\
+          "packageLocation": "./.yarn/__virtual__/semantic-release-gitmoji-virtual-b147b685c0/0/cache/semantic-release-gitmoji-npm-1.4.5-67605da6bd-c84e226b9a.zip/node_modules/semantic-release-gitmoji/",\
+          "packageDependencies": [\
+            ["semantic-release-gitmoji", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:1.4.5"],\
+            ["@types/semantic-release", null],\
+            ["dateformat", "npm:3.0.3"],\
+            ["debug", "virtual:93ff9e54e7e85ba03f8777529e2e31fd687b3208f0bfd29f9526626fccebedcf25fd704ae938492bcd5692d38a16927bd020804d445cde5885dc772e9e1e1ff9#npm:4.3.4"],\
+            ["emoji-regex", "npm:9.2.2"],\
+            ["git-url-parse", "npm:13.1.0"],\
+            ["handlebars", "npm:4.7.7"],\
+            ["issue-regex", "npm:3.1.0"],\
+            ["lodash.clonedeep", "npm:4.5.0"],\
+            ["lodash.mergewith", "npm:4.6.2"],\
+            ["lodash.uniq", "npm:4.5.0"],\
+            ["node-emoji", "npm:1.11.0"],\
+            ["semantic-release", "npm:19.0.5"]\
+          ],\
+          "packagePeers": [\
+            "@types/semantic-release",\
+            "semantic-release"\
           ],\
           "linkType": "HARD"\
         }]\
