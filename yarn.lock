@@ -14589,14 +14589,6 @@ __metadata:
 "react-images-upload@workspace:.":
   version: 0.0.0-use.local
   resolution: "react-images-upload@workspace:."
-  dependencies:
-    "@semantic-release/changelog": ^6.0.1
-    "@semantic-release/exec": ^6.0.3
-    "@semantic-release/git": ^10.0.1
-    "@semantic-release/npm": ^9.0.1
-    gitmojis: ^3.12.0
-    semantic-release: ^19.0.5
-    semantic-release-monorepo: ^7.0.5
   languageName: unknown
   linkType: soft
 
