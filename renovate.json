@@ -1,0 +1,37 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:base"
+    ],
+    "labels": [
+        "dependencies"
+    ],
+    "dependencyDashboard": true,
+    "baseBranches": [
+        "master"
+    ],
+    "prHourlyLimit": 0,
+    "packageRules": [
+        {
+            "matchUpdateTypes": [
+                "major",
+                "minor",
+                "patch",
+                "pin",
+                "digest"
+            ],
+            "rebaseWhen": "behind-base-branch",
+            "automerge": true,
+            "platformAutomerge": true,
+            "gitLabIgnoreApprovals": true,
+            "semanticCommits": true,
+            "semanticCommitType": ":arrow_up: build"
+        },
+        {
+            "matchPackageNames": [
+                "node"
+            ],
+            "allowedVersions": "<17"
+        }
+    ]
+}

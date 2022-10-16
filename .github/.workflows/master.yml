@@ -1,0 +1,24 @@
+name: Deploy to Firebase Hosting on merge
+"on":
+  push:
+    branches:
+      - master
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+          cache: "yarn"
+      - name: Install dependencies
+        run: yarn install --immutable --immutable-cache
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
+      - name: Build
+        run: yarn build-all
+      - name: Publish
+        run: yarn release-all
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}

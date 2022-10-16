@@ -11,5 +11,18 @@
     "src/example",
     "src/component"
   ],
+  "scripts": {
+    "build-all": "yarn workspaces foreach run build",
+    "release-all": "yarn workspaces foreach --no-private --topological-dev run semantic-release"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^9.0.1",
+    "gitmojis": "^3.12.0",
+    "semantic-release": "^19.0.5",
+    "semantic-release-monorepo": "^7.0.5"
+  },
   "packageManager": "yarn@3.2.4"
 }
