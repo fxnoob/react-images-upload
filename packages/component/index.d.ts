@@ -25,4 +25,5 @@ interface Props {
   style?: object;
   defaultImages?: string[];
 }
+
 export default class ReactImageUploadComponent extends Component<Props> {}
