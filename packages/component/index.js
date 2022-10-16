@@ -103,7 +103,6 @@ class ReactImageUploadComponent extends React.Component {
     Promise.all(allFilePromises).then((newFilesData) => {
       const dataURLs = singleImage ? [] : this.state.pictures.slice();
       const files = singleImage ? [] : this.state.files.slice();
-
       newFilesData.forEach((newFileData) => {
         dataURLs.push(newFileData.dataURL);
         files.push(newFileData.file);
