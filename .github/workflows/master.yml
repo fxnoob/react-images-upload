@@ -16,6 +16,8 @@ jobs:
         run: yarn install --immutable --immutable-cache
         env:
           NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
+      - name: Check yarn config
+        run: yarn config get npmAuthToken
       - name: Build
         run: yarn build-all
       - name: Publish package
