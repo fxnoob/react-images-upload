@@ -1,17 +1,40 @@
 {
   "name": "@starlord25/react-images-upload",
-  "version": "1.0.0",
-  "main": "compiled.js",
+  "version": "1.0.4",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "homepage": "https://github.com/bryanjtc/react-images-upload/tree/master/src/component",
+  "description": "Images uploader UI component",
+  "author": {
+    "name": "bryanjtc",
+    "email": "49354825+bryanjtc@users.noreply.github.com"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bryanjtc/react-images-upload/component"
+    "url": "https://github.com/bryanjtc/react-images-upload/tree/master/src/component"
   },
   "files": [
-    "compiled.js",
+    "./dist/**",
     "package.json"
   ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "os": [
+    "win32",
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
   "dependencies": {
-    "@babel/core": "^7.19.3",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-flip-move": "^3.0.4",
@@ -19,15 +42,7 @@
   },
   "scripts": {
     "prepublishOnly": "npm run transpile",
-    "pretranspile": "rm -rf compiled.js",
-    "transpile": "babel index.js --out-file compiled.js"
-  },
-  "babel": {
-    "presets": [
-      "env",
-      "react",
-      "stage-2"
-    ]
+    "bundle": "tsup"
   },
   "keywords": [
     "image",
@@ -37,16 +52,12 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.2.5",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1"
+    "postcss": "^8.4.18",
+    "tsup": "^6.2.3"
   },
   "packageManager": "yarn@3.2.4"
 }
