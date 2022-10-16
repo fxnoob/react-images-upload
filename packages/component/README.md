@@ -72,4 +72,5 @@ class App extends React.Component {
 | singleImage | Boolean | false | If true, only a single image can be selected |
 
 ### License
+
 MIT
