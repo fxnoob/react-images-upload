@@ -1,18 +1,21 @@
 {
-  "name": "react-images-upload",
-  "version": "1.2.8",
-  "private": false,
+  "name": "@starlord25/react-images-upload",
+  "version": "1.0.0",
   "main": "compiled.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jakehartnell/react-images-upload"
+    "url": "https://github.com/bryanjtc/react-images-upload/component"
   },
   "dependencies": {
-    "react": "^16.12.0",
-    "react-flip-move": "^3.0.4"
+    "@babel/core": "^7.19.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-flip-move": "^3.0.4",
+    "webpack": "^5.74.0"
   },
   "scripts": {
     "prepublishOnly": "npm run transpile",
+    "pretranspile": "rm -rf compiled.js",
     "transpile": "babel index.js --out-file compiled.js"
   },
   "babel": {
@@ -36,8 +39,10 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1"
-  }
+    "babel-loader": "^8.2.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "packageManager": "yarn@3.2.4"
 }
