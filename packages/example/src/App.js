@@ -1,7 +1,7 @@
 import React from 'react';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { rainbow } from 'react-syntax-highlighter/dist/esm/styles/hljs';
-import ImageUploader from '../component/index.js';
+import ImageUploader from '@starlord25/react-images-upload';
 
 const steps = {
     one: `yarn add react-images-upload`,

@@ -2759,9 +2759,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@starlord25/react-images-upload@workspace:src/component":
+"@starlord25/react-images-upload@workspace:^, @starlord25/react-images-upload@workspace:packages/component":
   version: 0.0.0-use.local
-  resolution: "@starlord25/react-images-upload@workspace:src/component"
+  resolution: "@starlord25/react-images-upload@workspace:packages/component"
   dependencies:
     "@semantic-release/changelog": ^6.0.1
     "@semantic-release/exec": ^6.0.3
@@ -14560,10 +14560,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-images-upload-example@workspace:src/example":
+"react-images-upload-example@workspace:packages/example":
   version: 0.0.0-use.local
-  resolution: "react-images-upload-example@workspace:src/example"
+  resolution: "react-images-upload-example@workspace:packages/example"
   dependencies:
+    "@starlord25/react-images-upload": "workspace:^"
     babel-cli: ^6.26.0
     babel-core: ^6.26.3
     babel-loader: ^8.2.5
