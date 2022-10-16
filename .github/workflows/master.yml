@@ -26,4 +26,4 @@ jobs:
           NPM_TOKEN: ${{ secrets.YARN_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Publish example
-        run: yarn deploy
+        run: yarn workspace react-images-upload-example deploy
