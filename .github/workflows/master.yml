@@ -22,5 +22,6 @@ jobs:
         run: yarn release-all
         env:
           NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Publish example
         run: yarn deploy
