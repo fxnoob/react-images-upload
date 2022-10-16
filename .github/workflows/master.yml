@@ -27,7 +27,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Publish example
         run: |
-          cd src/example
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           yarn workspace react-images-upload-example run deploy -u "github-actions-bot <support+actions@github.com>"
         env:
