@@ -90,7 +90,6 @@ class ReactImageUploadComponent extends React.Component {
         fileErrors.push(fileError);
         continue;
       }
-
       allFilePromises.push(this.readFile(file));
     }
 
