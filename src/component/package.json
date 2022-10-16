@@ -1,6 +1,6 @@
 {
   "name": "@starlord25/react-images-upload",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "homepage": "https://github.com/bryanjtc/react-images-upload/tree/master/src/component",
@@ -41,8 +41,8 @@
     "webpack": "^5.74.0"
   },
   "scripts": {
-    "prepublishOnly": "npm run transpile",
-    "bundle": "tsup"
+    "prepublishOnly": "yarn run build",
+    "build": "tsup"
   },
   "keywords": [
     "image",
@@ -56,7 +56,14 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^9.0.1",
+    "gitmojis": "^3.12.0",
     "postcss": "^8.4.18",
+    "semantic-release": "^19.0.5",
+    "semantic-release-monorepo": "^7.0.5",
     "tsup": "^6.2.3"
   },
   "packageManager": "yarn@3.2.4"
