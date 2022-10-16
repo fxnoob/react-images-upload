@@ -21,7 +21,7 @@
   "cpu": [
     "x64"
   ],
-  "dependencies": {
+  "dependchoreencies": {
     "@starlord25/react-images-upload": "workspace:^",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
