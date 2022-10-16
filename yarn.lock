@@ -2665,7 +2665,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:^8.0.0":
+"@semantic-release/github@npm:^8.0.0, @semantic-release/github@npm:^8.0.6":
   version: 8.0.6
   resolution: "@semantic-release/github@npm:8.0.6"
   dependencies:
@@ -2766,6 +2766,7 @@ __metadata:
     "@semantic-release/changelog": ^6.0.1
     "@semantic-release/exec": ^6.0.3
     "@semantic-release/git": ^10.0.1
+    "@semantic-release/github": ^8.0.6
     "@semantic-release/npm": ^9.0.1
     gitmojis: ^3.12.0
     postcss: ^8.4.18
@@ -14668,6 +14669,7 @@ __metadata:
     "@semantic-release/changelog": ^6.0.1
     "@semantic-release/exec": ^6.0.3
     "@semantic-release/git": ^10.0.1
+    "@semantic-release/github": ^8.0.6
     "@semantic-release/npm": ^9.0.1
     gitmojis: ^3.12.0
     semantic-release: ^19.0.5

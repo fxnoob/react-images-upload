@@ -66,6 +66,11 @@ module.exports = {
           '🚀 RELEASE: chore(release) - ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
       },
     ],
+    ["@semantic-release/github", {
+      "assets": [
+        {"path": "packages/component/dist/**", "label": "JS distribution"},
+      ]
+    }],
   ],
 };
 

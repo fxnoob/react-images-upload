@@ -1,6 +1,6 @@
 {
   "name": "@starlord25/react-images-upload",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "homepage": "https://github.com/bryanjtc/react-images-upload/tree/master/src/component",
@@ -60,6 +60,7 @@
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.6",
     "@semantic-release/npm": "^9.0.1",
     "gitmojis": "^3.12.0",
     "postcss": "^8.4.18",

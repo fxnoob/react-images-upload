@@ -67,7 +67,6 @@ class ReactImageUploadComponent extends React.Component {
     const files = e.target.files;
     const allFilePromises = [];
     const fileErrors = [];
-
     // Iterate over all uploaded files
     for (let i = 0; i < files.length; i++) {
       let file = files[i];
