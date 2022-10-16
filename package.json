@@ -8,11 +8,10 @@
     "url": "https://github.com/bryanjtc/react-images-upload"
   },
   "workspaces": [
-    "src/example",
-    "src/component"
+    "packages/**"
   ],
   "scripts": {
-    "build-all": "yarn workspaces foreach run build",
+    "build-all": "yarn workspace @starlord25/react-images-upload run build && yarn workspace react-images-upload-example build",
     "release-all": "yarn workspaces foreach --no-private --topological-dev run semantic-release"
   },
   "devDependencies": {

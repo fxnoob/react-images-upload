@@ -18,7 +18,9 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
       - name: Build
         run: yarn build-all
-      - name: Publish
+      - name: Publish package
         run: yarn release-all
         env:
           NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
+      - name: Publish example
+        run: yarn deploy

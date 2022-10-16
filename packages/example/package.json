@@ -18,6 +18,7 @@
     "x64"
   ],
   "dependencies": {
+    "@starlord25/react-images-upload": "workspace:^",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-flip-move": "^3.0.4",
