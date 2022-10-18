@@ -21,6 +21,10 @@
     ".": {
       "require": "./dist/index.cjs",
       "import": "./dist/index.mjs"
+    },
+    "./styles": {
+      "require": "./dist/index.css",
+      "import": "./dist/index.css"
     }
   },
   "engines": {
