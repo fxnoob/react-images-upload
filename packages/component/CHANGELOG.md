@@ -1,3 +1,9 @@
+# [v1.0.5](https://github.com/bryanjtc/react-images-upload/compare/v1.0.4...v1.0.5) (2022-10-18)
+
+### Others
+
+- 🐛 [`4b4bd3e`](https://github.com/bryanjtc/react-images-upload/commit/4b4bd3e) fix: Update exports
+
 # [v1.0.4](https://github.com/bryanjtc/react-images-upload/compare/v1.0.3...v1.0.4) (2022-10-16)
 
 ### Others
