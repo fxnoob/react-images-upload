@@ -289,7 +289,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__core", null],\
             ["debug", "virtual:93ff9e54e7e85ba03f8777529e2e31fd687b3208f0bfd29f9526626fccebedcf25fd704ae938492bcd5692d38a16927bd020804d445cde5885dc772e9e1e1ff9#npm:4.3.4"],\
             ["lodash.debounce", "npm:4.0.8"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
             ["semver", "npm:6.3.0"]\
           ],\
           "packagePeers": [\
@@ -4236,7 +4236,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["builtin-modules", "npm:3.3.0"],\
             ["deepmerge", "npm:4.2.2"],\
             ["is-module", "npm:1.0.0"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
             ["rollup", "npm:2.79.1"]\
           ],\
           "packagePeers": [\
@@ -6864,7 +6864,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-macros", "npm:3.1.0"],\
             ["@babel/runtime", "npm:7.19.4"],\
             ["cosmiconfig", "npm:7.0.1"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"]\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8233,7 +8233,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chokidar", "npm:1.7.0"],\
             ["anymatch", "npm:1.3.2"],\
             ["async-each", "npm:1.0.3"],\
-            ["fsevents", "patch:fsevents@npm%3A1.2.13#~builtin<compat/fsevents>::version=1.2.13&hash=18f3a7"],\
+            ["fsevents", "patch:fsevents@npm%3A1.2.13#~builtin<compat/fsevents>::version=1.2.13&hash=d11327"],\
             ["glob-parent", "npm:2.0.0"],\
             ["inherits", "npm:2.0.4"],\
             ["is-binary-path", "npm:1.0.1"],\
@@ -8249,7 +8249,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chokidar", "npm:3.5.3"],\
             ["anymatch", "npm:3.1.2"],\
             ["braces", "npm:3.0.2"],\
-            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"],\
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
             ["glob-parent", "npm:5.1.2"],\
             ["is-binary-path", "npm:2.1.0"],\
             ["is-glob", "npm:4.0.3"],\
@@ -10522,7 +10522,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["eslint-import-resolver-node", "npm:0.3.6"],\
             ["debug", "virtual:c00dfb5fec45e9155ecd9c1c148a328a7fa6f9933c4a5d16a3644f798146148d828ffaf0e9dc4dbf9eb4d9090f0d84fa7d1827ac4ab859a86b6daee4a7a55fbc#npm:3.2.7"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"]\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10625,7 +10625,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-glob", "npm:4.0.3"],\
             ["minimatch", "npm:3.1.2"],\
             ["object.values", "npm:1.1.5"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
             ["tsconfig-paths", "npm:3.14.1"]\
           ],\
           "packagePeers": [\
@@ -10728,7 +10728,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["object.hasown", "npm:1.1.1"],\
             ["object.values", "npm:1.1.5"],\
             ["prop-types", "npm:15.8.1"],\
-            ["resolve", "patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"],\
             ["semver", "npm:6.3.0"],\
             ["string.prototype.matchall", "npm:4.0.7"]\
           ],\
@@ -11736,19 +11736,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["fsevents", [\
-        ["patch:fsevents@npm%3A1.2.13#~builtin<compat/fsevents>::version=1.2.13&hash=18f3a7", {\
-          "packageLocation": "./.yarn/unplugged/fsevents-patch-fcdf30aaca/node_modules/fsevents/",\
+        ["patch:fsevents@npm%3A1.2.13#~builtin<compat/fsevents>::version=1.2.13&hash=d11327", {\
+          "packageLocation": "./.yarn/unplugged/fsevents-patch-61ccaa93a2/node_modules/fsevents/",\
           "packageDependencies": [\
-            ["fsevents", "patch:fsevents@npm%3A1.2.13#~builtin<compat/fsevents>::version=1.2.13&hash=18f3a7"],\
+            ["fsevents", "patch:fsevents@npm%3A1.2.13#~builtin<compat/fsevents>::version=1.2.13&hash=d11327"],\
             ["bindings", "npm:1.5.0"],\
             ["nan", "npm:2.17.0"]\
           ],\
           "linkType": "HARD"\
         }],\
-        ["patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7", {\
-          "packageLocation": "./.yarn/unplugged/fsevents-patch-3340e2eb10/node_modules/fsevents/",\
+        ["patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1", {\
+          "packageLocation": "./.yarn/unplugged/fsevents-patch-2882183fbf/node_modules/fsevents/",\
           "packageDependencies": [\
-            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"],\
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
             ["node-gyp", "npm:9.3.0"]\
           ],\
           "linkType": "HARD"\
@@ -13893,7 +13893,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.11.0"],\
             ["anymatch", "npm:3.1.2"],\
             ["fb-watchman", "npm:2.0.2"],\
-            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"],\
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
             ["graceful-fs", "npm:4.2.10"],\
             ["jest-regex-util", "npm:27.5.1"],\
             ["jest-serializer", "npm:27.5.1"],\
@@ -14050,7 +14050,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-pnp-resolver", "virtual:a0a4a415f59ab1a920949fe4f9ac7174aa7df535addf97fcdc124f36cb0389a80c8f31f99ad52fa0c7aaa53f66726b763a7b2a27b93255cb52f9164322c0788e#npm:1.2.2"],\
             ["jest-util", "npm:27.5.1"],\
             ["jest-validate", "npm:27.5.1"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
             ["resolve.exports", "npm:1.1.0"],\
             ["slash", "npm:3.0.0"]\
           ],\
@@ -15913,7 +15913,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["normalize-package-data", "npm:2.5.0"],\
             ["hosted-git-info", "npm:2.8.9"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
             ["semver", "npm:5.7.1"],\
             ["validate-npm-package-license", "npm:3.0.4"]\
           ],\
@@ -17655,7 +17655,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.18"],\
             ["postcss-value-parser", "npm:4.2.0"],\
             ["read-cache", "npm:1.0.0"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"]\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"]\
           ],\
           "packagePeers": [\
             "@types/postcss",\
@@ -19358,7 +19358,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-webpack-plugin", "virtual:7515e76bdaf6e07cae45c1975a87c34e62b8304971259ca2f4f53c896b64a0577b477c1fc955955097871a5f80742e175de9cf99274627c6bdac0c04e4d53dd2#npm:3.2.0"],\
             ["file-loader", "virtual:7515e76bdaf6e07cae45c1975a87c34e62b8304971259ca2f4f53c896b64a0577b477c1fc955955097871a5f80742e175de9cf99274627c6bdac0c04e4d53dd2#npm:6.2.0"],\
             ["fs-extra", "npm:10.1.0"],\
-            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"],\
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
             ["html-webpack-plugin", "virtual:7515e76bdaf6e07cae45c1975a87c34e62b8304971259ca2f4f53c896b64a0577b477c1fc955955097871a5f80742e175de9cf99274627c6bdac0c04e4d53dd2#npm:5.5.0"],\
             ["identity-obj-proxy", "npm:3.0.0"],\
             ["jest", "virtual:7515e76bdaf6e07cae45c1975a87c34e62b8304971259ca2f4f53c896b64a0577b477c1fc955955097871a5f80742e175de9cf99274627c6bdac0c04e4d53dd2#npm:27.5.1"],\
@@ -19375,7 +19375,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-app-polyfill", "npm:3.0.0"],\
             ["react-dev-utils", "virtual:7515e76bdaf6e07cae45c1975a87c34e62b8304971259ca2f4f53c896b64a0577b477c1fc955955097871a5f80742e175de9cf99274627c6bdac0c04e4d53dd2#npm:12.0.1"],\
             ["react-refresh", "npm:0.11.0"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
             ["resolve-url-loader", "virtual:7515e76bdaf6e07cae45c1975a87c34e62b8304971259ca2f4f53c896b64a0577b477c1fc955955097871a5f80742e175de9cf99274627c6bdac0c04e4d53dd2#npm:4.0.0"],\
             ["sass-loader", "virtual:7515e76bdaf6e07cae45c1975a87c34e62b8304971259ca2f4f53c896b64a0577b477c1fc955955097871a5f80742e175de9cf99274627c6bdac0c04e4d53dd2#npm:12.6.0"],\
             ["semver", "npm:7.3.8"],\
@@ -19568,7 +19568,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/rechoir-npm-0.7.1-0c7e5c1201-2a04aab4e2.zip/node_modules/rechoir/",\
           "packageDependencies": [\
             ["rechoir", "npm:0.7.1"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"]\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -19886,20 +19886,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["resolve", [\
-        ["patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b", {\
-          "packageLocation": "./.yarn/cache/resolve-patch-46f9469d0d-5656f4d0be.zip/node_modules/resolve/",\
+        ["patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d", {\
+          "packageLocation": "./.yarn/cache/resolve-patch-0c52e0e4f7-5656f4d0be.zip/node_modules/resolve/",\
           "packageDependencies": [\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
             ["is-core-module", "npm:2.10.0"],\
             ["path-parse", "npm:1.0.7"],\
             ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
           ],\
           "linkType": "HARD"\
         }],\
-        ["patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=07638b", {\
-          "packageLocation": "./.yarn/cache/resolve-patch-bdbf6a2444-4bf9f4f8a4.zip/node_modules/resolve/",\
+        ["patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d", {\
+          "packageLocation": "./.yarn/cache/resolve-patch-34cda421ec-4bf9f4f8a4.zip/node_modules/resolve/",\
           "packageDependencies": [\
-            ["resolve", "patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"],\
             ["is-core-module", "npm:2.10.0"],\
             ["path-parse", "npm:1.0.7"],\
             ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
@@ -20031,7 +20031,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/rollup-npm-2.79.1-94e707a9a3-6a2bf167b3.zip/node_modules/rollup/",\
           "packageDependencies": [\
             ["rollup", "npm:2.79.1"],\
-            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"]\
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -21506,7 +21506,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss-selector-parser", "npm:6.0.10"],\
             ["postcss-value-parser", "npm:4.2.0"],\
             ["quick-lru", "npm:5.1.1"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"]\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"]\
           ],\
           "packagePeers": [\
             "@types/postcss",\
@@ -23763,7 +23763,8 @@ function areStatsEqual(a, b) {
 
 const PortablePath = {
   root: `/`,
-  dot: `.`
+  dot: `.`,
+  parent: `..`
 };
 const Filename = {
   nodeModules: `node_modules`,
@@ -27328,7 +27329,7 @@ class ZipOpenFS extends BasePortableFakeFS {
   }
 }
 
-class URLFS extends ProxiedFS {
+class NodePathFS extends ProxiedFS {
   constructor(baseFs) {
     super(npath);
     this.baseFs = baseFs;
@@ -27337,9 +27338,17 @@ class URLFS extends ProxiedFS {
     return path;
   }
   mapToBase(path) {
+    if (typeof path === `string`)
+      return path;
     if (path instanceof url.URL)
       return url.fileURLToPath(path);
-    return path;
+    if (Buffer.isBuffer(path)) {
+      const str = path.toString();
+      if (Buffer.byteLength(str) !== path.byteLength)
+        throw new Error(`Non-utf8 buffers are not supported at the moment. Please upvote the following issue if you encounter this error: https://github.com/yarnpkg/berry/issues/4942`);
+      return str;
+    }
+    throw new Error(`Unsupported path type: ${nodeUtils.inspect(path)}`);
   }
 }
 
@@ -27628,7 +27637,7 @@ const ASYNC_IMPLEMENTATIONS = /* @__PURE__ */ new Set([
   `writeSync`
 ]);
 function patchFs(patchedFs, fakeFs) {
-  fakeFs = new URLFS(fakeFs);
+  fakeFs = new NodePathFS(fakeFs);
   const setupFn = (target, name, replacement) => {
     const orig = target[name];
     target[name] = replacement;
