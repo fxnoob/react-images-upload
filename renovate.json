@@ -10,6 +10,7 @@
     "baseBranches": [
         "master"
     ],
+    "includeForks": true,
     "prHourlyLimit": 0,
     "packageRules": [
         {
@@ -23,7 +24,6 @@
             "rebaseWhen": "behind-base-branch",
             "automerge": true,
             "platformAutomerge": true,
-            "gitLabIgnoreApprovals": true,
             "semanticCommits": true,
             "semanticCommitType": ":arrow_up: build"
         },
