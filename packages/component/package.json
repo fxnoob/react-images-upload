@@ -1,6 +1,6 @@
 {
   "name": "@starlord25/react-images-upload",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "homepage": "https://github.com/bryanjtc/react-images-upload/tree/master/src/component",

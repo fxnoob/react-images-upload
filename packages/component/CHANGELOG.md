@@ -1,3 +1,9 @@
+# [v1.0.7](https://github.com/bryanjtc/react-images-upload/compare/v1.0.6...v1.0.7) (2022-12-11)
+
+### Others
+
+- ⬆️ [`d7bd08a`](https://github.com/bryanjtc/react-images-upload/commit/d7bd08a) build(deps): Update dependency babel-loader to v9
+
 # [v1.0.6](https://github.com/bryanjtc/react-images-upload/compare/v1.0.5...v1.0.6) (2022-12-11)
 
 ### Others
