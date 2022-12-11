@@ -1,3 +1,9 @@
+# [v1.0.8](https://github.com/bryanjtc/react-images-upload/compare/v1.0.7...v1.0.8) (2022-12-11)
+
+### Others
+
+- ⬆️ [`8158341`](https://github.com/bryanjtc/react-images-upload/commit/8158341) build(deps): Update dependency webpack-cli to v5
+
 # [v1.0.7](https://github.com/bryanjtc/react-images-upload/compare/v1.0.6...v1.0.7) (2022-12-11)
 
 ### Others
