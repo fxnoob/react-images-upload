@@ -1,3 +1,9 @@
+# [v1.0.6](https://github.com/bryanjtc/react-images-upload/compare/v1.0.5...v1.0.6) (2022-12-11)
+
+### Others
+
+- ⬆️ [`a74752e`](https://github.com/bryanjtc/react-images-upload/commit/a74752e) build(deps): Update Yarn to v3.3.0
+
 # [v1.0.5](https://github.com/bryanjtc/react-images-upload/compare/v1.0.4...v1.0.5) (2022-10-18)
 
 ### Others
