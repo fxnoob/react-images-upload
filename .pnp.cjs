@@ -9989,10 +9989,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["email-addresses", [\
-        ["npm:3.1.0", {\
-          "packageLocation": "./.yarn/cache/email-addresses-npm-3.1.0-332eec577b-e911985f09.zip/node_modules/email-addresses/",\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/email-addresses-npm-5.0.0-218d2e9289-e58a510e9c.zip/node_modules/email-addresses/",\
           "packageDependencies": [\
-            ["email-addresses", "npm:3.1.0"]\
+            ["email-addresses", "npm:5.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -11956,13 +11956,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["gh-pages", [\
-        ["npm:4.0.0", {\
-          "packageLocation": "./.yarn/cache/gh-pages-npm-4.0.0-1490bfc5d9-255648eb27.zip/node_modules/gh-pages/",\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/gh-pages-npm-5.0.0-85e52a94f0-d766aef02d.zip/node_modules/gh-pages/",\
           "packageDependencies": [\
-            ["gh-pages", "npm:4.0.0"],\
-            ["async", "npm:2.6.4"],\
+            ["gh-pages", "npm:5.0.0"],\
+            ["async", "npm:3.2.4"],\
             ["commander", "npm:2.20.3"],\
-            ["email-addresses", "npm:3.1.0"],\
+            ["email-addresses", "npm:5.0.0"],\
             ["filenamify", "npm:4.3.0"],\
             ["find-cache-dir", "npm:3.3.2"],\
             ["fs-extra", "npm:8.1.0"],\
@@ -19452,7 +19452,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-preset-react", "npm:6.24.1"],\
             ["css-loader", "virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:6.7.1"],\
             ["extract-text-webpack-plugin", "virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:4.0.0-beta.0"],\
-            ["gh-pages", "npm:4.0.0"],\
+            ["gh-pages", "npm:5.0.0"],\
             ["html-webpack-plugin", "virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:5.5.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:18.2.0"],\
