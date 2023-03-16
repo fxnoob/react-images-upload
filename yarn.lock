@@ -9054,7 +9054,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gitmojis@npm:^3.12.0":
+"gitmojis@npm:^3.12.0, gitmojis@npm:^3.13.4":
   version: 3.13.4
   resolution: "gitmojis@npm:3.13.4"
   checksum: f9d8ec955eb63e4a5c5ba7303a110d55c12b8bfb77f08e991f392d3d002c2c818f13b0ce2a087768affbd30add37155587bb12387051035206ff8e30e198e7f5
@@ -15966,13 +15966,14 @@ __metadata:
   linkType: hard
 
 "semantic-release-gitmoji@npm:^1.4.5":
-  version: 1.4.5
-  resolution: "semantic-release-gitmoji@npm:1.4.5"
+  version: 1.6.3
+  resolution: "semantic-release-gitmoji@npm:1.6.3"
   dependencies:
     dateformat: ^3.0.3
     debug: ^4.3.2
     emoji-regex: ^9.2.2
     git-url-parse: ^13.0.0
+    gitmojis: ^3.13.4
     handlebars: ^4.7.6
     issue-regex: ^3.1.0
     lodash.clonedeep: ^4.5.0
@@ -15980,8 +15981,8 @@ __metadata:
     lodash.uniq: ^4.5.0
     node-emoji: ^1.11.0
   peerDependencies:
-    semantic-release: <20
-  checksum: c84e226b9a06b2118f082f96539f6c3ae6af0049808f060c358e586164fe3de18fb7c2d3607a1b96b9807fae73dd92a07f50a1476ebec0db1c6e84673752d395
+    semantic-release: <21
+  checksum: bbc444bb7e6120c3787cae6616cc28f0771d86f5e2508e4f79484ff0a49dfbc4722a55592f81de50d908446e2cc1b25de7bf303f99d4f502032991f0a5700989
   languageName: node
   linkType: hard
 
