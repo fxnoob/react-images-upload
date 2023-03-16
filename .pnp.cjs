@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/git", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:10.0.1"],\
             ["@semantic-release/github", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:8.0.7"],\
             ["@semantic-release/npm", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:9.0.2"],\
-            ["gitmojis", "npm:3.12.0"],\
+            ["gitmojis", "npm:3.13.4"],\
             ["semantic-release", "npm:20.1.1"],\
             ["semantic-release-gitmoji", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:1.4.5"],\
             ["semantic-release-monorepo", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:7.0.5"]\
@@ -4672,7 +4672,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/npm", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:9.0.2"],\
             ["@types/react", null],\
             ["@types/react-dom", null],\
-            ["gitmojis", "npm:3.12.0"],\
+            ["gitmojis", "npm:3.13.4"],\
             ["postcss", "npm:8.4.21"],\
             ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
@@ -4701,7 +4701,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/git", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:10.0.1"],\
             ["@semantic-release/github", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:8.0.7"],\
             ["@semantic-release/npm", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:9.0.2"],\
-            ["gitmojis", "npm:3.12.0"],\
+            ["gitmojis", "npm:3.13.4"],\
             ["postcss", "npm:8.4.21"],\
             ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
@@ -12163,10 +12163,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["gitmojis", [\
-        ["npm:3.12.0", {\
-          "packageLocation": "./.yarn/cache/gitmojis-npm-3.12.0-530c93a30b-3a71325a5f.zip/node_modules/gitmojis/",\
+        ["npm:3.13.4", {\
+          "packageLocation": "./.yarn/cache/gitmojis-npm-3.13.4-f6bdd7955a-f9d8ec955e.zip/node_modules/gitmojis/",\
           "packageDependencies": [\
-            ["gitmojis", "npm:3.12.0"]\
+            ["gitmojis", "npm:3.13.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -19709,7 +19709,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/git", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:10.0.1"],\
             ["@semantic-release/github", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:8.0.7"],\
             ["@semantic-release/npm", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:9.0.2"],\
-            ["gitmojis", "npm:3.12.0"],\
+            ["gitmojis", "npm:3.13.4"],\
             ["semantic-release", "npm:20.1.1"],\
             ["semantic-release-gitmoji", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:1.4.5"],\
             ["semantic-release-monorepo", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:7.0.5"]\

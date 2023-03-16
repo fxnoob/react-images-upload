@@ -9055,9 +9055,9 @@ __metadata:
   linkType: hard
 
 "gitmojis@npm:^3.12.0":
-  version: 3.12.0
-  resolution: "gitmojis@npm:3.12.0"
-  checksum: 3a71325a5fd3cf8d727f8a70f27dfe161771c8aa10f78388613ced2cbfe9bac6f629e6540441d2ccaa2ea3b3756fe66476891e4786aa3e27e53be20c317bbdab
+  version: 3.13.4
+  resolution: "gitmojis@npm:3.13.4"
+  checksum: f9d8ec955eb63e4a5c5ba7303a110d55c12b8bfb77f08e991f392d3d002c2c818f13b0ce2a087768affbd30add37155587bb12387051035206ff8e30e198e7f5
   languageName: node
   linkType: hard
 
