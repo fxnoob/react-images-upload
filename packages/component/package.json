@@ -71,7 +71,7 @@
     "semantic-release": "^21.0.0",
     "semantic-release-gitmoji": "^1.4.5",
     "semantic-release-monorepo": "^7.0.5",
-    "tsup": "^6.2.3"
+    "tsup": "^7.0.0"
   },
   "packageManager": "yarn@3.6.0"
 }
