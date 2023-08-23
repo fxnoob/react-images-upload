@@ -29,5 +29,5 @@
     "build-all": "yarn workspaces foreach run build",
     "release-all": "yarn workspaces foreach --no-private --topological-dev run semantic-release"
   },
-  "packageManager": "yarn@3.6.2"
+  "packageManager": "yarn@3.6.3"
 }

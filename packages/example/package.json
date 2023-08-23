@@ -52,7 +52,7 @@
     "webpack-cli": "^5.0.0",
     "webpack-dev-server": "^4.11.1"
   },
-  "packageManager": "yarn@3.6.2",
+  "packageManager": "yarn@3.6.3",
   "browserslist": {
     "production": [
       ">0.2%",
