@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/git", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:10.0.1"],\
             ["@semantic-release/github", "virtual:ef3ebea60966f008525206b1498e315460a4401b5d38d794be05ccd506cbb39e38f600de84a2c579b63d9c47f6a1940879c71a078582a109790292f3ca0b61cb#npm:9.2.1"],\
             ["@semantic-release/npm", "virtual:ef3ebea60966f008525206b1498e315460a4401b5d38d794be05ccd506cbb39e38f600de84a2c579b63d9c47f6a1940879c71a078582a109790292f3ca0b61cb#npm:11.0.0"],\
-            ["gitmojis", "npm:3.13.5"],\
+            ["gitmojis", "npm:3.14.0"],\
             ["semantic-release", "npm:22.0.5"],\
             ["semantic-release-gitmoji", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:1.6.4"],\
             ["semantic-release-monorepo", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:7.0.5"]\
@@ -4909,7 +4909,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/npm", "virtual:ef3ebea60966f008525206b1498e315460a4401b5d38d794be05ccd506cbb39e38f600de84a2c579b63d9c47f6a1940879c71a078582a109790292f3ca0b61cb#npm:11.0.0"],\
             ["@types/react", null],\
             ["@types/react-dom", null],\
-            ["gitmojis", "npm:3.13.5"],\
+            ["gitmojis", "npm:3.14.0"],\
             ["postcss", "npm:8.4.31"],\
             ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
@@ -4938,7 +4938,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/git", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:10.0.1"],\
             ["@semantic-release/github", "virtual:ef3ebea60966f008525206b1498e315460a4401b5d38d794be05ccd506cbb39e38f600de84a2c579b63d9c47f6a1940879c71a078582a109790292f3ca0b61cb#npm:9.2.1"],\
             ["@semantic-release/npm", "virtual:ef3ebea60966f008525206b1498e315460a4401b5d38d794be05ccd506cbb39e38f600de84a2c579b63d9c47f6a1940879c71a078582a109790292f3ca0b61cb#npm:11.0.0"],\
-            ["gitmojis", "npm:3.13.5"],\
+            ["gitmojis", "npm:3.14.0"],\
             ["postcss", "npm:8.4.31"],\
             ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
@@ -12352,10 +12352,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["gitmojis", [\
-        ["npm:3.13.5", {\
-          "packageLocation": "./.yarn/cache/gitmojis-npm-3.13.5-aad8fcfb3a-715c529fc2.zip/node_modules/gitmojis/",\
+        ["npm:3.14.0", {\
+          "packageLocation": "./.yarn/cache/gitmojis-npm-3.14.0-7387dd5138-b897913360.zip/node_modules/gitmojis/",\
           "packageDependencies": [\
-            ["gitmojis", "npm:3.13.5"]\
+            ["gitmojis", "npm:3.14.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -19974,7 +19974,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/git", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:10.0.1"],\
             ["@semantic-release/github", "virtual:ef3ebea60966f008525206b1498e315460a4401b5d38d794be05ccd506cbb39e38f600de84a2c579b63d9c47f6a1940879c71a078582a109790292f3ca0b61cb#npm:9.2.1"],\
             ["@semantic-release/npm", "virtual:ef3ebea60966f008525206b1498e315460a4401b5d38d794be05ccd506cbb39e38f600de84a2c579b63d9c47f6a1940879c71a078582a109790292f3ca0b61cb#npm:11.0.0"],\
-            ["gitmojis", "npm:3.13.5"],\
+            ["gitmojis", "npm:3.14.0"],\
             ["semantic-release", "npm:22.0.5"],\
             ["semantic-release-gitmoji", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:1.6.4"],\
             ["semantic-release-monorepo", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:7.0.5"]\
@@ -21065,7 +21065,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:ef3ebea60966f008525206b1498e315460a4401b5d38d794be05ccd506cbb39e38f600de84a2c579b63d9c47f6a1940879c71a078582a109790292f3ca0b61cb#npm:4.3.4"],\
             ["emoji-regex", "npm:9.2.2"],\
             ["git-url-parse", "npm:13.1.0"],\
-            ["gitmojis", "npm:3.13.5"],\
+            ["gitmojis", "npm:3.14.0"],\
             ["handlebars", "npm:4.7.7"],\
             ["issue-regex", "npm:3.1.0"],\
             ["lodash.clonedeep", "npm:4.5.0"],\
