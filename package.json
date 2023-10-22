@@ -27,7 +27,7 @@
   },
   "scripts": {
     "build-all": "yarn workspaces foreach --all run build",
-    "release-all": "yarn workspaces foreach --no-private --topological-dev run semantic-release"
+    "release-all": "yarn workspaces foreach --all --no-private --topological-dev run semantic-release"
   },
   "packageManager": "yarn@4.0.0"
 }
