@@ -26,8 +26,8 @@
     "semantic-release-monorepo": "^7.0.5"
   },
   "scripts": {
-    "build-all": "yarn workspaces foreach run build",
+    "build-all": "yarn workspaces foreach --all run build",
     "release-all": "yarn workspaces foreach --no-private --topological-dev run semantic-release"
   },
-  "packageManager": "yarn@3.6.4"
+  "packageManager": "yarn@4.0.0"
 }
