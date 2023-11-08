@@ -2930,8 +2930,8 @@ __metadata:
   linkType: hard
 
 "@semantic-release/github@npm:^9.0.0":
-  version: 9.2.1
-  resolution: "@semantic-release/github@npm:9.2.1"
+  version: 9.2.2
+  resolution: "@semantic-release/github@npm:9.2.2"
   dependencies:
     "@octokit/core": "npm:^5.0.0"
     "@octokit/plugin-paginate-rest": "npm:^9.0.0"
@@ -2951,7 +2951,7 @@ __metadata:
     url-join: "npm:^5.0.0"
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: f4b7e48284e920e56fbf11214a6e0722f284605610223abdc0be96b958dd8e5752121b4524e84b751c4fb4bbd9e9092c19adddb4a7d8fac0aa2591f3322e67ad
+  checksum: 5c1613a167ec2491cbed652a597571fd35e0019f54e3a14b919a925f55215fb82130d02c1420f73b0f9e1a2aa7965129872fa9eeb84f9686a2679d45572c0085
   languageName: node
   linkType: hard
 
