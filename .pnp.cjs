@@ -12464,10 +12464,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["gh-pages", [\
-      ["npm:6.1.0", {\
-        "packageLocation": "./.yarn/cache/gh-pages-npm-6.1.0-bd68a9b948-ef61f856e1.zip/node_modules/gh-pages/",\
+      ["npm:6.1.1", {\
+        "packageLocation": "./.yarn/cache/gh-pages-npm-6.1.1-7bde86cdf6-1a0c184386.zip/node_modules/gh-pages/",\
         "packageDependencies": [\
-          ["gh-pages", "npm:6.1.0"],\
+          ["gh-pages", "npm:6.1.1"],\
           ["async", "npm:3.2.4"],\
           ["commander", "npm:11.0.0"],\
           ["email-addresses", "npm:5.0.0"],\
@@ -20221,7 +20221,7 @@ const RAW_RUNTIME_STATE =
           ["babel-preset-react", "npm:6.24.1"],\
           ["css-loader", "virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:6.8.1"],\
           ["extract-text-webpack-plugin", "virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:4.0.0-beta.0"],\
-          ["gh-pages", "npm:6.1.0"],\
+          ["gh-pages", "npm:6.1.1"],\
           ["html-webpack-plugin", "virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:5.6.0"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:18.2.0"],\
