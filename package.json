@@ -23,7 +23,8 @@
     "gitmojis": "^3.12.0",
     "semantic-release": "^22.0.0",
     "semantic-release-gitmoji": "^1.4.5",
-    "semantic-release-monorepo": "^7.0.5"
+    "semantic-release-monorepo": "^7.0.5",
+    "typescript": "^5.3.3"
   },
   "scripts": {
     "build-all": "yarn workspaces foreach --all run build",
