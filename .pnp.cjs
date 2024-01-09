@@ -20230,7 +20230,7 @@ const RAW_RUNTIME_STATE =
           ["react-flip-move", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:3.0.5"],\
           ["react-scripts", "virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:5.0.1"],\
           ["react-syntax-highlighter", "virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:15.5.0"],\
-          ["style-loader", "virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:3.3.3"],\
+          ["style-loader", "virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:3.3.4"],\
           ["webpack", "virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:5.89.0"],\
           ["webpack-cli", "virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:5.1.4"],\
           ["webpack-dev-server", "virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:4.15.1"]\
@@ -20327,7 +20327,7 @@ const RAW_RUNTIME_STATE =
           ["sass-loader", "virtual:7515e76bdaf6e07cae45c1975a87c34e62b8304971259ca2f4f53c896b64a0577b477c1fc955955097871a5f80742e175de9cf99274627c6bdac0c04e4d53dd2#npm:12.6.0"],\
           ["semver", "npm:7.3.8"],\
           ["source-map-loader", "virtual:7515e76bdaf6e07cae45c1975a87c34e62b8304971259ca2f4f53c896b64a0577b477c1fc955955097871a5f80742e175de9cf99274627c6bdac0c04e4d53dd2#npm:3.0.1"],\
-          ["style-loader", "virtual:7515e76bdaf6e07cae45c1975a87c34e62b8304971259ca2f4f53c896b64a0577b477c1fc955955097871a5f80742e175de9cf99274627c6bdac0c04e4d53dd2#npm:3.3.3"],\
+          ["style-loader", "virtual:7515e76bdaf6e07cae45c1975a87c34e62b8304971259ca2f4f53c896b64a0577b477c1fc955955097871a5f80742e175de9cf99274627c6bdac0c04e4d53dd2#npm:3.3.4"],\
           ["tailwindcss", "virtual:7515e76bdaf6e07cae45c1975a87c34e62b8304971259ca2f4f53c896b64a0577b477c1fc955955097871a5f80742e175de9cf99274627c6bdac0c04e4d53dd2#npm:3.1.8"],\
           ["terser-webpack-plugin", "virtual:7515e76bdaf6e07cae45c1975a87c34e62b8304971259ca2f4f53c896b64a0577b477c1fc955955097871a5f80742e175de9cf99274627c6bdac0c04e4d53dd2#npm:5.3.6"],\
           ["typescript", null],\
@@ -22373,17 +22373,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["style-loader", [\
-      ["npm:3.3.3", {\
-        "packageLocation": "./.yarn/cache/style-loader-npm-3.3.3-2e8bbeeac4-104bae8abd.zip/node_modules/style-loader/",\
+      ["npm:3.3.4", {\
+        "packageLocation": "./.yarn/cache/style-loader-npm-3.3.4-e2ff5c12be-8f8027fc5c.zip/node_modules/style-loader/",\
         "packageDependencies": [\
-          ["style-loader", "npm:3.3.3"]\
+          ["style-loader", "npm:3.3.4"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:7515e76bdaf6e07cae45c1975a87c34e62b8304971259ca2f4f53c896b64a0577b477c1fc955955097871a5f80742e175de9cf99274627c6bdac0c04e4d53dd2#npm:3.3.3", {\
-        "packageLocation": "./.yarn/__virtual__/style-loader-virtual-8e8f12a462/0/cache/style-loader-npm-3.3.3-2e8bbeeac4-104bae8abd.zip/node_modules/style-loader/",\
+      ["virtual:7515e76bdaf6e07cae45c1975a87c34e62b8304971259ca2f4f53c896b64a0577b477c1fc955955097871a5f80742e175de9cf99274627c6bdac0c04e4d53dd2#npm:3.3.4", {\
+        "packageLocation": "./.yarn/__virtual__/style-loader-virtual-1d10399d2f/0/cache/style-loader-npm-3.3.4-e2ff5c12be-8f8027fc5c.zip/node_modules/style-loader/",\
         "packageDependencies": [\
-          ["style-loader", "virtual:7515e76bdaf6e07cae45c1975a87c34e62b8304971259ca2f4f53c896b64a0577b477c1fc955955097871a5f80742e175de9cf99274627c6bdac0c04e4d53dd2#npm:3.3.3"],\
+          ["style-loader", "virtual:7515e76bdaf6e07cae45c1975a87c34e62b8304971259ca2f4f53c896b64a0577b477c1fc955955097871a5f80742e175de9cf99274627c6bdac0c04e4d53dd2#npm:3.3.4"],\
           ["@types/webpack", null],\
           ["webpack", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:5.89.0"]\
         ],\
@@ -22393,10 +22393,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:3.3.3", {\
-        "packageLocation": "./.yarn/__virtual__/style-loader-virtual-c138d1b036/0/cache/style-loader-npm-3.3.3-2e8bbeeac4-104bae8abd.zip/node_modules/style-loader/",\
+      ["virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:3.3.4", {\
+        "packageLocation": "./.yarn/__virtual__/style-loader-virtual-cc24444b2e/0/cache/style-loader-npm-3.3.4-e2ff5c12be-8f8027fc5c.zip/node_modules/style-loader/",\
         "packageDependencies": [\
-          ["style-loader", "virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:3.3.3"],\
+          ["style-loader", "virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:3.3.4"],\
           ["@types/webpack", null],\
           ["webpack", "virtual:8074a3f2b3eb0d26cbeece8920ac5d0e5fb88dcbb7755d57a074a0e32493e15246bf37f8bce206a789384cbe59f6d3a8fb1c04c5819ccf505a39262c71028c75#npm:5.89.0"]\
         ],\
