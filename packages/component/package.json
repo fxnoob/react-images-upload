@@ -68,7 +68,7 @@
     "@semantic-release/npm": "^11.0.0",
     "gitmojis": "^3.12.0",
     "postcss": "^8.4.18",
-    "semantic-release": "^22.0.0",
+    "semantic-release": "^23.0.0",
     "semantic-release-gitmoji": "^1.4.5",
     "semantic-release-monorepo": "^7.0.5",
     "tsup": "^8.0.0"
