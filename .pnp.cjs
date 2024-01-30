@@ -111,6 +111,15 @@ const RAW_RUNTIME_STATE =
           ["chalk", "npm:2.4.2"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.23.5", {\
+        "packageLocation": "./.yarn/cache/@babel-code-frame-npm-7.23.5-cb10d08de6-a10e843595.zip/node_modules/@babel/code-frame/",\
+        "packageDependencies": [\
+          ["@babel/code-frame", "npm:7.23.5"],\
+          ["@babel/highlight", "npm:7.23.4"],\
+          ["chalk", "npm:2.4.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@babel/compat-data", [\
@@ -195,6 +204,14 @@ const RAW_RUNTIME_STATE =
           ["@babel/types", "npm:7.19.4"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.22.5", {\
+        "packageLocation": "./.yarn/cache/@babel-helper-annotate-as-pure-npm-7.22.5-f38dc8aa1c-5a80dc364d.zip/node_modules/@babel/helper-annotate-as-pure/",\
+        "packageDependencies": [\
+          ["@babel/helper-annotate-as-pure", "npm:7.22.5"],\
+          ["@babel/types", "npm:7.23.9"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@babel/helper-builder-binary-assignment-operator-visitor", [\
@@ -242,6 +259,13 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
+      ["npm:7.23.9", {\
+        "packageLocation": "./.yarn/cache/@babel-helper-create-class-features-plugin-npm-7.23.9-369c030eff-3bcbd699c3.zip/node_modules/@babel/helper-create-class-features-plugin/",\
+        "packageDependencies": [\
+          ["@babel/helper-create-class-features-plugin", "npm:7.23.9"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
       ["virtual:bdaff04f866abe993b609627b165dfc4c980fc999f74028b344f4e5c4b2154ebd9d475ca5564f0e7d28cdc13883abd1e73563117edb7cec2dc284a50b85075d5#npm:7.19.0", {\
         "packageLocation": "./.yarn/__virtual__/@babel-helper-create-class-features-plugin-virtual-7727da7eaa/0/cache/@babel-helper-create-class-features-plugin-npm-7.19.0-684397371f-f61b98942d.zip/node_modules/@babel/helper-create-class-features-plugin/",\
         "packageDependencies": [\
@@ -255,6 +279,28 @@ const RAW_RUNTIME_STATE =
           ["@babel/helper-replace-supers", "npm:7.19.1"],\
           ["@babel/helper-split-export-declaration", "npm:7.18.6"],\
           ["@types/babel__core", null]\
+        ],\
+        "packagePeers": [\
+          "@babel/core",\
+          "@types/babel__core"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:cd10674686ef291be70d495c9ec5ecd7d69a363d1cbd5f67526616cf1095014e52e7d24976daa8666e09ed741898156807cbc655c11b51eeec921cf75c20b49e#npm:7.23.9", {\
+        "packageLocation": "./.yarn/__virtual__/@babel-helper-create-class-features-plugin-virtual-d8e9849e2f/0/cache/@babel-helper-create-class-features-plugin-npm-7.23.9-369c030eff-3bcbd699c3.zip/node_modules/@babel/helper-create-class-features-plugin/",\
+        "packageDependencies": [\
+          ["@babel/helper-create-class-features-plugin", "virtual:cd10674686ef291be70d495c9ec5ecd7d69a363d1cbd5f67526616cf1095014e52e7d24976daa8666e09ed741898156807cbc655c11b51eeec921cf75c20b49e#npm:7.23.9"],\
+          ["@babel/core", "npm:7.19.3"],\
+          ["@babel/helper-annotate-as-pure", "npm:7.22.5"],\
+          ["@babel/helper-environment-visitor", "npm:7.22.20"],\
+          ["@babel/helper-function-name", "npm:7.23.0"],\
+          ["@babel/helper-member-expression-to-functions", "npm:7.23.0"],\
+          ["@babel/helper-optimise-call-expression", "npm:7.22.5"],\
+          ["@babel/helper-replace-supers", "virtual:d8e9849e2f4c911d8656921097c995b595c1fb65499b00697e7a3ca3cb399fe4547e858caa30771edab1006eaa740fa36f57c7812f8318b21ab77f8f53bddf0f#npm:7.22.20"],\
+          ["@babel/helper-skip-transparent-expression-wrappers", "npm:7.22.5"],\
+          ["@babel/helper-split-export-declaration", "npm:7.22.6"],\
+          ["@types/babel__core", null],\
+          ["semver", "npm:6.3.1"]\
         ],\
         "packagePeers": [\
           "@babel/core",\
@@ -322,6 +368,13 @@ const RAW_RUNTIME_STATE =
           ["@babel/helper-environment-visitor", "npm:7.18.9"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.22.20", {\
+        "packageLocation": "./.yarn/cache/@babel-helper-environment-visitor-npm-7.22.20-260909e014-e762c2d8f5.zip/node_modules/@babel/helper-environment-visitor/",\
+        "packageDependencies": [\
+          ["@babel/helper-environment-visitor", "npm:7.22.20"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@babel/helper-explode-assignable-expression", [\
@@ -343,6 +396,15 @@ const RAW_RUNTIME_STATE =
           ["@babel/types", "npm:7.19.4"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.23.0", {\
+        "packageLocation": "./.yarn/cache/@babel-helper-function-name-npm-7.23.0-ce38271242-d771dd1f32.zip/node_modules/@babel/helper-function-name/",\
+        "packageDependencies": [\
+          ["@babel/helper-function-name", "npm:7.23.0"],\
+          ["@babel/template", "npm:7.23.9"],\
+          ["@babel/types", "npm:7.23.9"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@babel/helper-hoist-variables", [\
@@ -361,6 +423,14 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@babel/helper-member-expression-to-functions", "npm:7.18.9"],\
           ["@babel/types", "npm:7.19.4"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:7.23.0", {\
+        "packageLocation": "./.yarn/cache/@babel-helper-member-expression-to-functions-npm-7.23.0-4eb0647557-b810daddf0.zip/node_modules/@babel/helper-member-expression-to-functions/",\
+        "packageDependencies": [\
+          ["@babel/helper-member-expression-to-functions", "npm:7.23.0"],\
+          ["@babel/types", "npm:7.23.9"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -400,6 +470,14 @@ const RAW_RUNTIME_STATE =
           ["@babel/types", "npm:7.19.4"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.22.5", {\
+        "packageLocation": "./.yarn/cache/@babel-helper-optimise-call-expression-npm-7.22.5-846964ef82-31b41a764f.zip/node_modules/@babel/helper-optimise-call-expression/",\
+        "packageDependencies": [\
+          ["@babel/helper-optimise-call-expression", "npm:7.22.5"],\
+          ["@babel/types", "npm:7.23.9"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@babel/helper-plugin-utils", [\
@@ -407,6 +485,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@babel-helper-plugin-utils-npm-7.19.0-744ad0c26b-9ae9c09cf7.zip/node_modules/@babel/helper-plugin-utils/",\
         "packageDependencies": [\
           ["@babel/helper-plugin-utils", "npm:7.19.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:7.22.5", {\
+        "packageLocation": "./.yarn/cache/@babel-helper-plugin-utils-npm-7.22.5-192e38e1de-d2c4bfe2fa.zip/node_modules/@babel/helper-plugin-utils/",\
+        "packageDependencies": [\
+          ["@babel/helper-plugin-utils", "npm:7.22.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -449,6 +534,29 @@ const RAW_RUNTIME_STATE =
           ["@babel/types", "npm:7.19.4"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.22.20", {\
+        "packageLocation": "./.yarn/cache/@babel-helper-replace-supers-npm-7.22.20-7e1aa74118-6b0858811a.zip/node_modules/@babel/helper-replace-supers/",\
+        "packageDependencies": [\
+          ["@babel/helper-replace-supers", "npm:7.22.20"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:d8e9849e2f4c911d8656921097c995b595c1fb65499b00697e7a3ca3cb399fe4547e858caa30771edab1006eaa740fa36f57c7812f8318b21ab77f8f53bddf0f#npm:7.22.20", {\
+        "packageLocation": "./.yarn/__virtual__/@babel-helper-replace-supers-virtual-b9a00094d9/0/cache/@babel-helper-replace-supers-npm-7.22.20-7e1aa74118-6b0858811a.zip/node_modules/@babel/helper-replace-supers/",\
+        "packageDependencies": [\
+          ["@babel/helper-replace-supers", "virtual:d8e9849e2f4c911d8656921097c995b595c1fb65499b00697e7a3ca3cb399fe4547e858caa30771edab1006eaa740fa36f57c7812f8318b21ab77f8f53bddf0f#npm:7.22.20"],\
+          ["@babel/core", "npm:7.19.3"],\
+          ["@babel/helper-environment-visitor", "npm:7.22.20"],\
+          ["@babel/helper-member-expression-to-functions", "npm:7.23.0"],\
+          ["@babel/helper-optimise-call-expression", "npm:7.22.5"],\
+          ["@types/babel__core", null]\
+        ],\
+        "packagePeers": [\
+          "@babel/core",\
+          "@types/babel__core"\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@babel/helper-simple-access", [\
@@ -469,6 +577,14 @@ const RAW_RUNTIME_STATE =
           ["@babel/types", "npm:7.19.4"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.22.5", {\
+        "packageLocation": "./.yarn/cache/@babel-helper-skip-transparent-expression-wrappers-npm-7.22.5-a398428942-ab7fa2aa70.zip/node_modules/@babel/helper-skip-transparent-expression-wrappers/",\
+        "packageDependencies": [\
+          ["@babel/helper-skip-transparent-expression-wrappers", "npm:7.22.5"],\
+          ["@babel/types", "npm:7.23.9"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@babel/helper-split-export-declaration", [\
@@ -479,6 +595,14 @@ const RAW_RUNTIME_STATE =
           ["@babel/types", "npm:7.19.4"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.22.6", {\
+        "packageLocation": "./.yarn/cache/@babel-helper-split-export-declaration-npm-7.22.6-e723505aef-d83e4b623e.zip/node_modules/@babel/helper-split-export-declaration/",\
+        "packageDependencies": [\
+          ["@babel/helper-split-export-declaration", "npm:7.22.6"],\
+          ["@babel/types", "npm:7.23.9"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@babel/helper-string-parser", [\
@@ -486,6 +610,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@babel-helper-string-parser-npm-7.19.4-0db110dc3a-e20c81582e.zip/node_modules/@babel/helper-string-parser/",\
         "packageDependencies": [\
           ["@babel/helper-string-parser", "npm:7.19.4"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:7.23.4", {\
+        "packageLocation": "./.yarn/cache/@babel-helper-string-parser-npm-7.23.4-b1f0d030c3-f348d5637a.zip/node_modules/@babel/helper-string-parser/",\
+        "packageDependencies": [\
+          ["@babel/helper-string-parser", "npm:7.23.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -560,6 +691,16 @@ const RAW_RUNTIME_STATE =
           ["js-tokens", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.23.4", {\
+        "packageLocation": "./.yarn/cache/@babel-highlight-npm-7.23.4-2a9f2d2538-fbff9fcb2f.zip/node_modules/@babel/highlight/",\
+        "packageDependencies": [\
+          ["@babel/highlight", "npm:7.23.4"],\
+          ["@babel/helper-validator-identifier", "npm:7.22.20"],\
+          ["chalk", "npm:2.4.2"],\
+          ["js-tokens", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@babel/parser", [\
@@ -567,6 +708,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@babel-parser-npm-7.19.4-0c772881aa-51a69ca46d.zip/node_modules/@babel/parser/",\
         "packageDependencies": [\
           ["@babel/parser", "npm:7.19.4"],\
+          ["@babel/types", "npm:7.19.4"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:7.23.9", {\
+        "packageLocation": "./.yarn/cache/@babel-parser-npm-7.23.9-720a0b56cb-7df9738643.zip/node_modules/@babel/parser/",\
+        "packageDependencies": [\
+          ["@babel/parser", "npm:7.23.9"],\
           ["@babel/types", "npm:7.19.4"]\
         ],\
         "linkType": "HARD"\
@@ -973,6 +1122,30 @@ const RAW_RUNTIME_STATE =
           ["@babel/plugin-proposal-private-property-in-object", "npm:7.18.6"]\
         ],\
         "linkType": "SOFT"\
+      }],\
+      ["npm:7.21.11", {\
+        "packageLocation": "./.yarn/cache/@babel-plugin-proposal-private-property-in-object-npm-7.21.11-d474c5e67a-3c8c9ea175.zip/node_modules/@babel/plugin-proposal-private-property-in-object/",\
+        "packageDependencies": [\
+          ["@babel/plugin-proposal-private-property-in-object", "npm:7.21.11"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:a9a19b630a588155c92f4ae8a8db8144917ee83e3cd36bb76901eb84a4f5c22dc9e3132b483ed08b52ebbd0b97f69550387746aa970daf04db052b2bb054ab12#npm:7.21.11", {\
+        "packageLocation": "./.yarn/__virtual__/@babel-plugin-proposal-private-property-in-object-virtual-cd10674686/0/cache/@babel-plugin-proposal-private-property-in-object-npm-7.21.11-d474c5e67a-3c8c9ea175.zip/node_modules/@babel/plugin-proposal-private-property-in-object/",\
+        "packageDependencies": [\
+          ["@babel/plugin-proposal-private-property-in-object", "virtual:a9a19b630a588155c92f4ae8a8db8144917ee83e3cd36bb76901eb84a4f5c22dc9e3132b483ed08b52ebbd0b97f69550387746aa970daf04db052b2bb054ab12#npm:7.21.11"],\
+          ["@babel/core", "npm:7.19.3"],\
+          ["@babel/helper-annotate-as-pure", "npm:7.18.6"],\
+          ["@babel/helper-create-class-features-plugin", "virtual:cd10674686ef291be70d495c9ec5ecd7d69a363d1cbd5f67526616cf1095014e52e7d24976daa8666e09ed741898156807cbc655c11b51eeec921cf75c20b49e#npm:7.23.9"],\
+          ["@babel/helper-plugin-utils", "npm:7.22.5"],\
+          ["@babel/plugin-syntax-private-property-in-object", "virtual:abbede386b59b05fa75ddc5bfd5d6060f13ce5b3f30301368c40f0d3dd7393ff5c28e028e764d54baa545a9237f8e4212102b6322c843a5004f9dd1d496d9182#npm:7.14.5"],\
+          ["@types/babel__core", null]\
+        ],\
+        "packagePeers": [\
+          "@babel/core",\
+          "@types/babel__core"\
+        ],\
+        "linkType": "HARD"\
       }],\
       ["virtual:abbede386b59b05fa75ddc5bfd5d6060f13ce5b3f30301368c40f0d3dd7393ff5c28e028e764d54baa545a9237f8e4212102b6322c843a5004f9dd1d496d9182#npm:7.18.6", {\
         "packageLocation": "./.yarn/__virtual__/@babel-plugin-proposal-private-property-in-object-virtual-af44d9cb04/0/cache/@babel-plugin-proposal-private-property-in-object-npm-7.18.6-755223e615-173496cb8b.zip/node_modules/@babel/plugin-proposal-private-property-in-object/",\
@@ -2837,6 +3010,16 @@ const RAW_RUNTIME_STATE =
           ["@babel/types", "npm:7.19.4"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.23.9", {\
+        "packageLocation": "./.yarn/cache/@babel-template-npm-7.23.9-d3df10ecd2-0e8b601194.zip/node_modules/@babel/template/",\
+        "packageDependencies": [\
+          ["@babel/template", "npm:7.23.9"],\
+          ["@babel/code-frame", "npm:7.23.5"],\
+          ["@babel/parser", "npm:7.23.9"],\
+          ["@babel/types", "npm:7.23.9"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@babel/traverse", [\
@@ -2865,6 +3048,16 @@ const RAW_RUNTIME_STATE =
           ["@babel/types", "npm:7.19.4"],\
           ["@babel/helper-string-parser", "npm:7.19.4"],\
           ["@babel/helper-validator-identifier", "npm:7.19.1"],\
+          ["to-fast-properties", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:7.23.9", {\
+        "packageLocation": "./.yarn/cache/@babel-types-npm-7.23.9-c32aeb5f36-edc7bb180c.zip/node_modules/@babel/types/",\
+        "packageDependencies": [\
+          ["@babel/types", "npm:7.23.9"],\
+          ["@babel/helper-string-parser", "npm:7.23.4"],\
+          ["@babel/helper-validator-identifier", "npm:7.22.20"],\
           ["to-fast-properties", "npm:2.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -8124,7 +8317,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/plugin-proposal-numeric-separator", "virtual:abbede386b59b05fa75ddc5bfd5d6060f13ce5b3f30301368c40f0d3dd7393ff5c28e028e764d54baa545a9237f8e4212102b6322c843a5004f9dd1d496d9182#npm:7.18.6"],\
           ["@babel/plugin-proposal-optional-chaining", "virtual:abbede386b59b05fa75ddc5bfd5d6060f13ce5b3f30301368c40f0d3dd7393ff5c28e028e764d54baa545a9237f8e4212102b6322c843a5004f9dd1d496d9182#npm:7.18.9"],\
           ["@babel/plugin-proposal-private-methods", "virtual:abbede386b59b05fa75ddc5bfd5d6060f13ce5b3f30301368c40f0d3dd7393ff5c28e028e764d54baa545a9237f8e4212102b6322c843a5004f9dd1d496d9182#npm:7.18.6"],\
-          ["@babel/plugin-proposal-private-property-in-object", "virtual:abbede386b59b05fa75ddc5bfd5d6060f13ce5b3f30301368c40f0d3dd7393ff5c28e028e764d54baa545a9237f8e4212102b6322c843a5004f9dd1d496d9182#npm:7.18.6"],\
+          ["@babel/plugin-proposal-private-property-in-object", "virtual:a9a19b630a588155c92f4ae8a8db8144917ee83e3cd36bb76901eb84a4f5c22dc9e3132b483ed08b52ebbd0b97f69550387746aa970daf04db052b2bb054ab12#npm:7.21.11"],\
           ["@babel/plugin-transform-flow-strip-types", "virtual:a9a19b630a588155c92f4ae8a8db8144917ee83e3cd36bb76901eb84a4f5c22dc9e3132b483ed08b52ebbd0b97f69550387746aa970daf04db052b2bb054ab12#npm:7.19.0"],\
           ["@babel/plugin-transform-react-display-name", "virtual:27272fcb7e8c03731df2aa884c1fe818706e60b5261a0923f09f9d622a016cd777ceb26cf8ef6d8ce7551c6af044d6999b164a9e53c4fc7816a13b900de263bb#npm:7.18.6"],\
           ["@babel/plugin-transform-runtime", "virtual:a9a19b630a588155c92f4ae8a8db8144917ee83e3cd36bb76901eb84a4f5c22dc9e3132b483ed08b52ebbd0b97f69550387746aa970daf04db052b2bb054ab12#npm:7.19.1"],\
@@ -21447,6 +21640,13 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
+      ["npm:6.3.1", {\
+        "packageLocation": "./.yarn/cache/semver-npm-6.3.1-bcba31fdbe-e3d79b6090.zip/node_modules/semver/",\
+        "packageDependencies": [\
+          ["semver", "npm:6.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:7.3.8", {\
         "packageLocation": "./.yarn/cache/semver-npm-7.3.8-25a996cb4f-7e581d6795.zip/node_modules/semver/",\
         "packageDependencies": [\
@@ -25235,10 +25435,9 @@ async function copyImpl(prelayout, postlayout, destinationFs, destination, sourc
         updated = await copySymlink(prelayout, postlayout, destinationFs, destination, destinationStat, sourceFs, source, sourceStat, opts);
       }
       break;
-    default:
-      {
-        throw new Error(`Unsupported file type (${sourceStat.mode})`);
-      }
+    default: {
+      throw new Error(`Unsupported file type (${sourceStat.mode})`);
+    }
   }
   if (opts.linkStrategy?.type !== `HardlinkFromIndex` || !sourceStat.isFile()) {
     if (updated || destinationStat?.mtime?.getTime() !== mtime.getTime() || destinationStat?.atime?.getTime() !== atime.getTime()) {
@@ -25301,7 +25500,10 @@ async function copyFolder(prelayout, postlayout, destinationFs, destination, des
 }
 async function copyFileViaIndex(prelayout, postlayout, destinationFs, destination, destinationStat, sourceFs, source, sourceStat, opts, linkStrategy) {
   const sourceHash = await sourceFs.checksumFilePromise(source, { algorithm: `sha1` });
-  const indexPath = destinationFs.pathUtils.join(linkStrategy.indexPath, sourceHash.slice(0, 2), `${sourceHash}.dat`);
+  const defaultMode = 420;
+  const sourceMode = sourceStat.mode & 511;
+  const indexFileName = `${sourceHash}${sourceMode !== defaultMode ? sourceMode.toString(8) : ``}`;
+  const indexPath = destinationFs.pathUtils.join(linkStrategy.indexPath, sourceHash.slice(0, 2), `${indexFileName}.dat`);
   let AtomicBehavior;
   ((AtomicBehavior2) => {
     AtomicBehavior2[AtomicBehavior2["Lock"] = 0] = "Lock";
@@ -25357,8 +25559,12 @@ async function copyFileViaIndex(prelayout, postlayout, destinationFs, destinatio
     }
   });
   postlayout.push(async () => {
-    if (!indexStat)
+    if (!indexStat) {
       await destinationFs.lutimesPromise(indexPath, defaultTime, defaultTime);
+      if (sourceMode !== defaultMode) {
+        await destinationFs.chmodPromise(indexPath, sourceMode);
+      }
+    }
     if (tempPath && !tempPathCleaned) {
       await destinationFs.unlinkPromise(tempPath);
     }
@@ -27562,6 +27768,8 @@ class VirtualFS extends ProxiedFS {
   }
 }
 
+const URL = Number(process.versions.node.split('.', 1)[0]) < 20 ? url.URL : globalThis.URL;
+
 class NodePathFS extends ProxiedFS {
   constructor(baseFs) {
     super(npath);
@@ -27573,7 +27781,7 @@ class NodePathFS extends ProxiedFS {
   mapToBase(path) {
     if (typeof path === `string`)
       return path;
-    if (path instanceof url.URL)
+    if (path instanceof URL)
       return url.fileURLToPath(path);
     if (Buffer.isBuffer(path)) {
       const str = path.toString();
@@ -29139,8 +29347,10 @@ class ZipFS extends BasePortableFakeFS {
           throw new Error(`Incomplete read`);
         else if (rc > size)
           throw new Error(`Overread`);
-        const memory = this.libzip.HEAPU8.subarray(buffer, buffer + size);
-        return Buffer.from(memory);
+        let result = Buffer.from(this.libzip.HEAPU8.subarray(buffer, buffer + size));
+        if (process.env.YARN_IS_TEST_ENV && process.env.YARN_ZIP_DATA_EPILOGUE)
+          result = Buffer.concat([result, Buffer.from(process.env.YARN_ZIP_DATA_EPILOGUE)]);
+        return result;
       } finally {
         this.libzip.free(buffer);
       }
@@ -30198,7 +30408,7 @@ function applyPatch(pnpapi, opts) {
   process.versions.pnp = String(pnpapi.VERSIONS.std);
   const moduleExports = require$$0__default.default;
   moduleExports.findPnpApi = (lookupSource) => {
-    const lookupPath = lookupSource instanceof url.URL ? url.fileURLToPath(lookupSource) : lookupSource;
+    const lookupPath = lookupSource instanceof URL ? url.fileURLToPath(lookupSource) : lookupSource;
     const apiPath = opts.manager.findApiPathFor(lookupPath);
     if (apiPath === null)
       return null;
@@ -30620,28 +30830,6 @@ function getPackageScopeConfig(resolved, readFileSyncFn) {
   return packageConfig;
 }
 
-/**
-  @license
-  Copyright Node.js contributors. All rights reserved.
-
-  Permission is hereby granted, free of charge, to any person obtaining a copy
-  of this software and associated documentation files (the "Software"), to
-  deal in the Software without restriction, including without limitation the
-  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-  sell copies of the Software, and to permit persons to whom the Software is
-  furnished to do so, subject to the following conditions:
-
-  The above copyright notice and this permission notice shall be included in
-  all copies or substantial portions of the Software.
-
-  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-  IN THE SOFTWARE.
-*/
 function throwImportNotDefined(specifier, packageJSONUrl, base) {
   throw new ERR_PACKAGE_IMPORT_NOT_DEFINED(
     specifier,
