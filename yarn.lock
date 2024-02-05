@@ -16835,8 +16835,8 @@ __metadata:
   linkType: hard
 
 "semantic-release-monorepo@npm:^8.0.0":
-  version: 8.0.1
-  resolution: "semantic-release-monorepo@npm:8.0.1"
+  version: 8.0.2
+  resolution: "semantic-release-monorepo@npm:8.0.2"
   dependencies:
     debug: "npm:^4.3.4"
     execa: "npm:^5.1.1"
@@ -16853,7 +16853,7 @@ __metadata:
     tempy: "npm:1.0.1"
   peerDependencies:
     semantic-release: ">=22.0.7"
-  checksum: 10c0/5121e6b6ee19fd25a827a85f8f3bb57a7012d9ba0e8784cfcf9e2bce0883941fa0ea84d30cbfd2264458aeb172f58ca169157044a833a70cb8e85cf836f590c6
+  checksum: 10c0/44e514bfa7a897c9897fa9c9f7cb4a44eca7f366d5d7fdeda19e6ce20c582a8040557d5ef73e46cfba8dcfb0cc0d8263d7c9def5ab0aceee63ad898f00097e3f
   languageName: node
   linkType: hard
 
