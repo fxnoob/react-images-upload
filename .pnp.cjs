@@ -39,10 +39,10 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/changelog", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:6.0.3"],\
           ["@semantic-release/exec", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:6.0.3"],\
           ["@semantic-release/git", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:10.0.1"],\
-          ["@semantic-release/github", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:10.0.2"],\
-          ["@semantic-release/npm", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:11.0.3"],\
+          ["@semantic-release/github", "virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:10.0.2"],\
+          ["@semantic-release/npm", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:11.0.3"],\
           ["gitmojis", "npm:3.14.0"],\
-          ["semantic-release", "npm:23.0.3"],\
+          ["semantic-release", "npm:23.0.4"],\
           ["semantic-release-gitmoji", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:1.6.5"],\
           ["semantic-release-monorepo", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:8.0.2"],\
           ["typescript", "patch:typescript@npm%3A5.4.2#optional!builtin<compat/typescript>::version=5.4.2&hash=5adc0c"]\
@@ -4526,10 +4526,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:2a7a72f36baf91cf56548f76b38f18350b1e1a6b5f0d350c553e7fd87e69fee90b6dd697766412e280328984e0e32879815bac2ba7013b1e4f5aabd4f35273a0#npm:10.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/@octokit-plugin-paginate-rest-virtual-70f08d1055/0/cache/@octokit-plugin-paginate-rest-npm-10.0.0-556305dfec-bdae24aca9.zip/node_modules/@octokit/plugin-paginate-rest/",\
+      ["virtual:312753aa7024f8677352b901e4652889f790501b7e14de8700988ac9b8875981afe6d78c78396d6ea336d67e6917ac3cf7b7a80f39780f7930287f090aaa787b#npm:10.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/@octokit-plugin-paginate-rest-virtual-10576b68a5/0/cache/@octokit-plugin-paginate-rest-npm-10.0.0-556305dfec-bdae24aca9.zip/node_modules/@octokit/plugin-paginate-rest/",\
         "packageDependencies": [\
-          ["@octokit/plugin-paginate-rest", "virtual:2a7a72f36baf91cf56548f76b38f18350b1e1a6b5f0d350c553e7fd87e69fee90b6dd697766412e280328984e0e32879815bac2ba7013b1e4f5aabd4f35273a0#npm:10.0.0"],\
+          ["@octokit/plugin-paginate-rest", "virtual:312753aa7024f8677352b901e4652889f790501b7e14de8700988ac9b8875981afe6d78c78396d6ea336d67e6917ac3cf7b7a80f39780f7930287f090aaa787b#npm:10.0.0"],\
           ["@octokit/core", "npm:6.0.1"],\
           ["@octokit/types", "npm:12.6.0"],\
           ["@types/octokit__core", null]\
@@ -4549,10 +4549,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:2a7a72f36baf91cf56548f76b38f18350b1e1a6b5f0d350c553e7fd87e69fee90b6dd697766412e280328984e0e32879815bac2ba7013b1e4f5aabd4f35273a0#npm:7.0.3", {\
-        "packageLocation": "./.yarn/__virtual__/@octokit-plugin-retry-virtual-a3e15b79cb/0/cache/@octokit-plugin-retry-npm-7.0.3-09938e7e40-ac4cfa6a3a.zip/node_modules/@octokit/plugin-retry/",\
+      ["virtual:312753aa7024f8677352b901e4652889f790501b7e14de8700988ac9b8875981afe6d78c78396d6ea336d67e6917ac3cf7b7a80f39780f7930287f090aaa787b#npm:7.0.3", {\
+        "packageLocation": "./.yarn/__virtual__/@octokit-plugin-retry-virtual-54cc2507b5/0/cache/@octokit-plugin-retry-npm-7.0.3-09938e7e40-ac4cfa6a3a.zip/node_modules/@octokit/plugin-retry/",\
         "packageDependencies": [\
-          ["@octokit/plugin-retry", "virtual:2a7a72f36baf91cf56548f76b38f18350b1e1a6b5f0d350c553e7fd87e69fee90b6dd697766412e280328984e0e32879815bac2ba7013b1e4f5aabd4f35273a0#npm:7.0.3"],\
+          ["@octokit/plugin-retry", "virtual:312753aa7024f8677352b901e4652889f790501b7e14de8700988ac9b8875981afe6d78c78396d6ea336d67e6917ac3cf7b7a80f39780f7930287f090aaa787b#npm:7.0.3"],\
           ["@octokit/core", "npm:6.0.1"],\
           ["@octokit/request-error", "npm:6.0.2"],\
           ["@octokit/types", "npm:12.0.0"],\
@@ -4574,10 +4574,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:2a7a72f36baf91cf56548f76b38f18350b1e1a6b5f0d350c553e7fd87e69fee90b6dd697766412e280328984e0e32879815bac2ba7013b1e4f5aabd4f35273a0#npm:9.0.3", {\
-        "packageLocation": "./.yarn/__virtual__/@octokit-plugin-throttling-virtual-f2a3c4c485/0/cache/@octokit-plugin-throttling-npm-9.0.3-5d967c3a48-6abf6f719e.zip/node_modules/@octokit/plugin-throttling/",\
+      ["virtual:312753aa7024f8677352b901e4652889f790501b7e14de8700988ac9b8875981afe6d78c78396d6ea336d67e6917ac3cf7b7a80f39780f7930287f090aaa787b#npm:9.0.3", {\
+        "packageLocation": "./.yarn/__virtual__/@octokit-plugin-throttling-virtual-25e354c1a2/0/cache/@octokit-plugin-throttling-npm-9.0.3-5d967c3a48-6abf6f719e.zip/node_modules/@octokit/plugin-throttling/",\
         "packageDependencies": [\
-          ["@octokit/plugin-throttling", "virtual:2a7a72f36baf91cf56548f76b38f18350b1e1a6b5f0d350c553e7fd87e69fee90b6dd697766412e280328984e0e32879815bac2ba7013b1e4f5aabd4f35273a0#npm:9.0.3"],\
+          ["@octokit/plugin-throttling", "virtual:312753aa7024f8677352b901e4652889f790501b7e14de8700988ac9b8875981afe6d78c78396d6ea336d67e6917ac3cf7b7a80f39780f7930287f090aaa787b#npm:9.0.3"],\
           ["@octokit/core", "npm:6.0.1"],\
           ["@octokit/types", "npm:12.6.0"],\
           ["@types/octokit__core", null],\
@@ -4965,7 +4965,7 @@ const RAW_RUNTIME_STATE =
           ["aggregate-error", "npm:3.1.0"],\
           ["fs-extra", "npm:11.1.0"],\
           ["lodash", "npm:4.17.21"],\
-          ["semantic-release", "npm:23.0.3"]\
+          ["semantic-release", "npm:23.0.4"]\
         ],\
         "packagePeers": [\
           "@types/semantic-release",\
@@ -4982,10 +4982,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:11.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/@semantic-release-commit-analyzer-virtual-6bc7a6acd1/0/cache/@semantic-release-commit-analyzer-npm-11.0.0-9a2f899b1f-d802a82500.zip/node_modules/@semantic-release/commit-analyzer/",\
+      ["virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:11.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/@semantic-release-commit-analyzer-virtual-ec070228d2/0/cache/@semantic-release-commit-analyzer-npm-11.0.0-9a2f899b1f-d802a82500.zip/node_modules/@semantic-release/commit-analyzer/",\
         "packageDependencies": [\
-          ["@semantic-release/commit-analyzer", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:11.0.0"],\
+          ["@semantic-release/commit-analyzer", "virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:11.0.0"],\
           ["@types/semantic-release", null],\
           ["conventional-changelog-angular", "npm:7.0.0"],\
           ["conventional-commits-filter", "npm:4.0.0"],\
@@ -4994,7 +4994,7 @@ const RAW_RUNTIME_STATE =
           ["import-from", "npm:4.0.0"],\
           ["lodash-es", "npm:4.17.21"],\
           ["micromatch", "npm:4.0.5"],\
-          ["semantic-release", "npm:23.0.3"]\
+          ["semantic-release", "npm:23.0.4"]\
         ],\
         "packagePeers": [\
           "@types/semantic-release",\
@@ -5038,7 +5038,7 @@ const RAW_RUNTIME_STATE =
           ["execa", "npm:5.1.1"],\
           ["lodash", "npm:4.17.21"],\
           ["parse-json", "npm:5.2.0"],\
-          ["semantic-release", "npm:23.0.3"]\
+          ["semantic-release", "npm:23.0.4"]\
         ],\
         "packagePeers": [\
           "@types/semantic-release",\
@@ -5068,7 +5068,7 @@ const RAW_RUNTIME_STATE =
           ["lodash", "npm:4.17.21"],\
           ["micromatch", "npm:4.0.5"],\
           ["p-reduce", "npm:2.1.0"],\
-          ["semantic-release", "npm:23.0.3"]\
+          ["semantic-release", "npm:23.0.4"]\
         ],\
         "packagePeers": [\
           "@types/semantic-release",\
@@ -5085,14 +5085,14 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:10.0.2", {\
-        "packageLocation": "./.yarn/__virtual__/@semantic-release-github-virtual-2a7a72f36b/0/cache/@semantic-release-github-npm-10.0.2-93492993f6-103fc3656f.zip/node_modules/@semantic-release/github/",\
+      ["virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:10.0.2", {\
+        "packageLocation": "./.yarn/__virtual__/@semantic-release-github-virtual-312753aa70/0/cache/@semantic-release-github-npm-10.0.2-93492993f6-103fc3656f.zip/node_modules/@semantic-release/github/",\
         "packageDependencies": [\
-          ["@semantic-release/github", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:10.0.2"],\
+          ["@semantic-release/github", "virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:10.0.2"],\
           ["@octokit/core", "npm:6.0.1"],\
-          ["@octokit/plugin-paginate-rest", "virtual:2a7a72f36baf91cf56548f76b38f18350b1e1a6b5f0d350c553e7fd87e69fee90b6dd697766412e280328984e0e32879815bac2ba7013b1e4f5aabd4f35273a0#npm:10.0.0"],\
-          ["@octokit/plugin-retry", "virtual:2a7a72f36baf91cf56548f76b38f18350b1e1a6b5f0d350c553e7fd87e69fee90b6dd697766412e280328984e0e32879815bac2ba7013b1e4f5aabd4f35273a0#npm:7.0.3"],\
-          ["@octokit/plugin-throttling", "virtual:2a7a72f36baf91cf56548f76b38f18350b1e1a6b5f0d350c553e7fd87e69fee90b6dd697766412e280328984e0e32879815bac2ba7013b1e4f5aabd4f35273a0#npm:9.0.3"],\
+          ["@octokit/plugin-paginate-rest", "virtual:312753aa7024f8677352b901e4652889f790501b7e14de8700988ac9b8875981afe6d78c78396d6ea336d67e6917ac3cf7b7a80f39780f7930287f090aaa787b#npm:10.0.0"],\
+          ["@octokit/plugin-retry", "virtual:312753aa7024f8677352b901e4652889f790501b7e14de8700988ac9b8875981afe6d78c78396d6ea336d67e6917ac3cf7b7a80f39780f7930287f090aaa787b#npm:7.0.3"],\
+          ["@octokit/plugin-throttling", "virtual:312753aa7024f8677352b901e4652889f790501b7e14de8700988ac9b8875981afe6d78c78396d6ea336d67e6917ac3cf7b7a80f39780f7930287f090aaa787b#npm:9.0.3"],\
           ["@semantic-release/error", "npm:4.0.0"],\
           ["@types/semantic-release", null],\
           ["aggregate-error", "npm:5.0.0"],\
@@ -5105,7 +5105,7 @@ const RAW_RUNTIME_STATE =
           ["lodash-es", "npm:4.17.21"],\
           ["mime", "npm:4.0.0"],\
           ["p-filter", "npm:4.0.0"],\
-          ["semantic-release", "npm:23.0.3"],\
+          ["semantic-release", "npm:23.0.4"],\
           ["url-join", "npm:5.0.0"]\
         ],\
         "packagePeers": [\
@@ -5123,10 +5123,17 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:11.0.3", {\
-        "packageLocation": "./.yarn/__virtual__/@semantic-release-npm-virtual-00e470948f/0/cache/@semantic-release-npm-npm-11.0.3-fdd5bb6434-142f396de8.zip/node_modules/@semantic-release/npm/",\
+      ["npm:12.0.0", {\
+        "packageLocation": "./.yarn/cache/@semantic-release-npm-npm-12.0.0-33d9616195-857972de2e.zip/node_modules/@semantic-release/npm/",\
         "packageDependencies": [\
-          ["@semantic-release/npm", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:11.0.3"],\
+          ["@semantic-release/npm", "npm:12.0.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:12.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/@semantic-release-npm-virtual-88e9bdf39e/0/cache/@semantic-release-npm-npm-12.0.0-33d9616195-857972de2e.zip/node_modules/@semantic-release/npm/",\
+        "packageDependencies": [\
+          ["@semantic-release/npm", "virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:12.0.0"],\
           ["@semantic-release/error", "npm:4.0.0"],\
           ["@types/semantic-release", null],\
           ["aggregate-error", "npm:5.0.0"],\
@@ -5139,7 +5146,33 @@ const RAW_RUNTIME_STATE =
           ["rc", "npm:1.2.8"],\
           ["read-pkg", "npm:9.0.0"],\
           ["registry-auth-token", "npm:5.0.2"],\
-          ["semantic-release", "npm:23.0.3"],\
+          ["semantic-release", "npm:23.0.4"],\
+          ["semver", "npm:7.3.8"],\
+          ["tempy", "npm:3.0.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/semantic-release",\
+          "semantic-release"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:11.0.3", {\
+        "packageLocation": "./.yarn/__virtual__/@semantic-release-npm-virtual-2f753cf069/0/cache/@semantic-release-npm-npm-11.0.3-fdd5bb6434-142f396de8.zip/node_modules/@semantic-release/npm/",\
+        "packageDependencies": [\
+          ["@semantic-release/npm", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:11.0.3"],\
+          ["@semantic-release/error", "npm:4.0.0"],\
+          ["@types/semantic-release", null],\
+          ["aggregate-error", "npm:5.0.0"],\
+          ["execa", "npm:8.0.1"],\
+          ["fs-extra", "npm:11.1.0"],\
+          ["lodash-es", "npm:4.17.21"],\
+          ["nerf-dart", "npm:1.0.0"],\
+          ["normalize-url", "npm:8.0.0"],\
+          ["npm", "npm:10.5.0"],\
+          ["rc", "npm:1.2.8"],\
+          ["read-pkg", "npm:9.0.0"],\
+          ["registry-auth-token", "npm:5.0.2"],\
+          ["semantic-release", "npm:23.0.4"],\
           ["semver", "npm:7.3.8"],\
           ["tempy", "npm:3.0.0"]\
         ],\
@@ -5158,10 +5191,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:12.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/@semantic-release-release-notes-generator-virtual-e95e2f8e8e/0/cache/@semantic-release-release-notes-generator-npm-12.0.0-102466c0f2-550479b63c.zip/node_modules/@semantic-release/release-notes-generator/",\
+      ["virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:12.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/@semantic-release-release-notes-generator-virtual-80506650ab/0/cache/@semantic-release-release-notes-generator-npm-12.0.0-102466c0f2-550479b63c.zip/node_modules/@semantic-release/release-notes-generator/",\
         "packageDependencies": [\
-          ["@semantic-release/release-notes-generator", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:12.0.0"],\
+          ["@semantic-release/release-notes-generator", "virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:12.0.0"],\
           ["@types/semantic-release", null],\
           ["conventional-changelog-angular", "npm:7.0.0"],\
           ["conventional-changelog-writer", "npm:7.0.1"],\
@@ -5173,7 +5206,7 @@ const RAW_RUNTIME_STATE =
           ["into-stream", "npm:7.0.0"],\
           ["lodash-es", "npm:4.17.21"],\
           ["read-pkg-up", "npm:10.0.0"],\
-          ["semantic-release", "npm:23.0.3"]\
+          ["semantic-release", "npm:23.0.4"]\
         ],\
         "packagePeers": [\
           "@types/semantic-release",\
@@ -5335,8 +5368,8 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/changelog", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:6.0.3"],\
           ["@semantic-release/exec", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:6.0.3"],\
           ["@semantic-release/git", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:10.0.1"],\
-          ["@semantic-release/github", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:10.0.2"],\
-          ["@semantic-release/npm", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:11.0.3"],\
+          ["@semantic-release/github", "virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:10.0.2"],\
+          ["@semantic-release/npm", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:11.0.3"],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
           ["gitmojis", "npm:3.14.0"],\
@@ -5345,7 +5378,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:18.2.0"],\
           ["react-flip-move", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:3.0.5"],\
-          ["semantic-release", "npm:23.0.3"],\
+          ["semantic-release", "npm:23.0.4"],\
           ["semantic-release-gitmoji", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:1.6.5"],\
           ["semantic-release-monorepo", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:8.0.2"],\
           ["tsup", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:8.0.2"],\
@@ -5366,15 +5399,15 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/changelog", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:6.0.3"],\
           ["@semantic-release/exec", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:6.0.3"],\
           ["@semantic-release/git", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:10.0.1"],\
-          ["@semantic-release/github", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:10.0.2"],\
-          ["@semantic-release/npm", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:11.0.3"],\
+          ["@semantic-release/github", "virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:10.0.2"],\
+          ["@semantic-release/npm", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:11.0.3"],\
           ["gitmojis", "npm:3.14.0"],\
           ["postcss", "npm:8.4.35"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:18.2.0"],\
           ["react-flip-move", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:3.0.5"],\
-          ["semantic-release", "npm:23.0.3"],\
+          ["semantic-release", "npm:23.0.4"],\
           ["semantic-release-gitmoji", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:1.6.5"],\
           ["semantic-release-monorepo", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:8.0.2"],\
           ["tsup", "virtual:ef6f78a33c19ef12200bdad55f9d058878f4207e951b855c6e16a66172163199666cc87d81fc61bedfccb6bc32bc70bd5696ea059af607ecee18e30d6e752ac6#npm:8.0.2"],\
@@ -10000,10 +10033,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:9.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/cosmiconfig-virtual-de85d40259/0/cache/cosmiconfig-npm-9.0.0-47d78cf275-1c1703be4f.zip/node_modules/cosmiconfig/",\
+      ["virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:9.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/cosmiconfig-virtual-c998239fa4/0/cache/cosmiconfig-npm-9.0.0-47d78cf275-1c1703be4f.zip/node_modules/cosmiconfig/",\
         "packageDependencies": [\
-          ["cosmiconfig", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:9.0.0"],\
+          ["cosmiconfig", "virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:9.0.0"],\
           ["@types/typescript", null],\
           ["env-paths", "npm:2.2.1"],\
           ["import-fresh", "npm:3.3.0"],\
@@ -16679,10 +16712,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:7.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/marked-terminal-virtual-78cd034563/0/cache/marked-terminal-npm-7.0.0-c8be718688-1d2410dca9.zip/node_modules/marked-terminal/",\
+      ["virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:7.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/marked-terminal-virtual-59631b699a/0/cache/marked-terminal-npm-7.0.0-c8be718688-1d2410dca9.zip/node_modules/marked-terminal/",\
         "packageDependencies": [\
-          ["marked-terminal", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:7.0.0"],\
+          ["marked-terminal", "virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:7.0.0"],\
           ["@types/marked", null],\
           ["ansi-escapes", "npm:6.2.0"],\
           ["chalk", "npm:5.3.0"],\
@@ -20949,10 +20982,10 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/changelog", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:6.0.3"],\
           ["@semantic-release/exec", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:6.0.3"],\
           ["@semantic-release/git", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:10.0.1"],\
-          ["@semantic-release/github", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:10.0.2"],\
-          ["@semantic-release/npm", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:11.0.3"],\
+          ["@semantic-release/github", "virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:10.0.2"],\
+          ["@semantic-release/npm", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:11.0.3"],\
           ["gitmojis", "npm:3.14.0"],\
-          ["semantic-release", "npm:23.0.3"],\
+          ["semantic-release", "npm:23.0.4"],\
           ["semantic-release-gitmoji", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:1.6.5"],\
           ["semantic-release-monorepo", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:8.0.2"],\
           ["typescript", "patch:typescript@npm%3A5.4.2#optional!builtin<compat/typescript>::version=5.4.2&hash=5adc0c"]\
@@ -22050,17 +22083,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["semantic-release", [\
-      ["npm:23.0.3", {\
-        "packageLocation": "./.yarn/cache/semantic-release-npm-23.0.3-0b7ae19256-5d47c0c098.zip/node_modules/semantic-release/",\
+      ["npm:23.0.4", {\
+        "packageLocation": "./.yarn/cache/semantic-release-npm-23.0.4-69d74673fb-1e99360d1c.zip/node_modules/semantic-release/",\
         "packageDependencies": [\
-          ["semantic-release", "npm:23.0.3"],\
-          ["@semantic-release/commit-analyzer", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:11.0.0"],\
+          ["semantic-release", "npm:23.0.4"],\
+          ["@semantic-release/commit-analyzer", "virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:11.0.0"],\
           ["@semantic-release/error", "npm:4.0.0"],\
-          ["@semantic-release/github", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:10.0.2"],\
-          ["@semantic-release/npm", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:11.0.3"],\
-          ["@semantic-release/release-notes-generator", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:12.0.0"],\
+          ["@semantic-release/github", "virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:10.0.2"],\
+          ["@semantic-release/npm", "virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:12.0.0"],\
+          ["@semantic-release/release-notes-generator", "virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:12.0.0"],\
           ["aggregate-error", "npm:5.0.0"],\
-          ["cosmiconfig", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:9.0.0"],\
+          ["cosmiconfig", "virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:9.0.0"],\
           ["debug", "virtual:16933725b15d5916e5e8733e8b1432ec0a04215dec374a2a86e81996ddb652e020d5ed6cdaa97e76fba88528c1a97a50c1d21b982dce325e5a59b545b5a66659#npm:4.3.4"],\
           ["env-ci", "npm:11.0.0"],\
           ["execa", "npm:8.0.1"],\
@@ -22073,7 +22106,7 @@ const RAW_RUNTIME_STATE =
           ["import-from-esm", "npm:1.3.1"],\
           ["lodash-es", "npm:4.17.21"],\
           ["marked", "npm:12.0.0"],\
-          ["marked-terminal", "virtual:0b7ae19256b7334398ae23bcafd173eb84588c8ceb9f08031476bcdc9dd91809f1fd52439d8b5778872b22a8ca4eecb546a792e532ad78e5e93beb2f36ecfde5#npm:7.0.0"],\
+          ["marked-terminal", "virtual:69d74673fba082b39eb296ca95d1f4f3a144e1140f2011845ae26dd4ee39a6a1f6212c0b716bcf8c7d5839ee4fbdaf6b5b96104a318412e1ca2ecf9961857d05#npm:7.0.0"],\
           ["micromatch", "npm:4.0.5"],\
           ["p-each-series", "npm:3.0.0"],\
           ["p-reduce", "npm:3.0.0"],\
@@ -22111,7 +22144,7 @@ const RAW_RUNTIME_STATE =
           ["lodash.mergewith", "npm:4.6.2"],\
           ["lodash.uniq", "npm:4.5.0"],\
           ["node-emoji", "npm:1.11.0"],\
-          ["semantic-release", "npm:23.0.3"]\
+          ["semantic-release", "npm:23.0.4"]\
         ],\
         "packagePeers": [\
           "@types/semantic-release",\
@@ -22144,7 +22177,7 @@ const RAW_RUNTIME_STATE =
           ["pkg-up", "npm:3.1.0"],\
           ["ramda", "npm:0.27.2"],\
           ["read-pkg", "npm:5.2.0"],\
-          ["semantic-release", "npm:23.0.3"],\
+          ["semantic-release", "npm:23.0.4"],\
           ["semantic-release-plugin-decorators", "virtual:1c7f520a5db486eead8c091e734f822ea8f682310573c68aaa78f1f06f2ca7b189477f40a20293cdac95f6495122f7216ab5086cc34f0ff575e12bcb5d786271#npm:4.0.0"],\
           ["tempy", "npm:1.0.1"]\
         ],\
@@ -22168,7 +22201,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["semantic-release-plugin-decorators", "virtual:1c7f520a5db486eead8c091e734f822ea8f682310573c68aaa78f1f06f2ca7b189477f40a20293cdac95f6495122f7216ab5086cc34f0ff575e12bcb5d786271#npm:4.0.0"],\
           ["@types/semantic-release", null],\
-          ["semantic-release", "npm:23.0.3"]\
+          ["semantic-release", "npm:23.0.4"]\
         ],\
         "packagePeers": [\
           "@types/semantic-release",\
