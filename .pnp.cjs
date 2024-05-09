@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 /* eslint-disable */
+// @ts-nocheck
 "use strict";
 
 const RAW_RUNTIME_STATE =
@@ -40,7 +41,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/exec", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:6.0.3"],\
           ["@semantic-release/git", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:10.0.1"],\
           ["@semantic-release/github", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:10.0.3"],\
-          ["@semantic-release/npm", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:12.0.0"],\
+          ["@semantic-release/npm", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:12.0.1"],\
           ["gitmojis", "npm:3.14.0"],\
           ["semantic-release", "npm:23.0.8"],\
           ["semantic-release-gitmoji", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:1.6.5"],\
@@ -4955,6 +4956,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@sec-ant/readable-stream", [\
+      ["npm:0.4.1", {\
+        "packageLocation": "./.yarn/cache/@sec-ant-readable-stream-npm-0.4.1-12d52145e0-64e9e9cf16.zip/node_modules/@sec-ant/readable-stream/",\
+        "packageDependencies": [\
+          ["@sec-ant/readable-stream", "npm:0.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@semantic-release/changelog", [\
       ["npm:6.0.3", {\
         "packageLocation": "./.yarn/cache/@semantic-release-changelog-npm-6.0.3-32085d167e-94c9c287d3.zip/node_modules/@semantic-release/changelog/",\
@@ -5123,21 +5133,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@semantic-release/npm", [\
-      ["npm:12.0.0", {\
-        "packageLocation": "./.yarn/cache/@semantic-release-npm-npm-12.0.0-33d9616195-857972de2e.zip/node_modules/@semantic-release/npm/",\
+      ["npm:12.0.1", {\
+        "packageLocation": "./.yarn/cache/@semantic-release-npm-npm-12.0.1-252a350e4d-816d2ed41b.zip/node_modules/@semantic-release/npm/",\
         "packageDependencies": [\
-          ["@semantic-release/npm", "npm:12.0.0"]\
+          ["@semantic-release/npm", "npm:12.0.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:12.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/@semantic-release-npm-virtual-3ab9efa648/0/cache/@semantic-release-npm-npm-12.0.0-33d9616195-857972de2e.zip/node_modules/@semantic-release/npm/",\
+      ["virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:12.0.1", {\
+        "packageLocation": "./.yarn/__virtual__/@semantic-release-npm-virtual-ceb48d4b54/0/cache/@semantic-release-npm-npm-12.0.1-252a350e4d-816d2ed41b.zip/node_modules/@semantic-release/npm/",\
         "packageDependencies": [\
-          ["@semantic-release/npm", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:12.0.0"],\
+          ["@semantic-release/npm", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:12.0.1"],\
           ["@semantic-release/error", "npm:4.0.0"],\
           ["@types/semantic-release", null],\
           ["aggregate-error", "npm:5.0.0"],\
-          ["execa", "npm:8.0.1"],\
+          ["execa", "npm:9.0.1"],\
           ["fs-extra", "npm:11.1.0"],\
           ["lodash-es", "npm:4.17.21"],\
           ["nerf-dart", "npm:1.0.0"],\
@@ -5312,6 +5322,13 @@ const RAW_RUNTIME_STATE =
           ["@sindresorhus/merge-streams", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:4.0.0", {\
+        "packageLocation": "./.yarn/cache/@sindresorhus-merge-streams-npm-4.0.0-28e7c03ac1-482ee54362.zip/node_modules/@sindresorhus/merge-streams/",\
+        "packageDependencies": [\
+          ["@sindresorhus/merge-streams", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@sinonjs/commons", [\
@@ -5343,7 +5360,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/exec", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:6.0.3"],\
           ["@semantic-release/git", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:10.0.1"],\
           ["@semantic-release/github", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:10.0.3"],\
-          ["@semantic-release/npm", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:12.0.0"],\
+          ["@semantic-release/npm", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:12.0.1"],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
           ["gitmojis", "npm:3.14.0"],\
@@ -5374,7 +5391,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/exec", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:6.0.3"],\
           ["@semantic-release/git", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:10.0.1"],\
           ["@semantic-release/github", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:10.0.3"],\
-          ["@semantic-release/npm", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:12.0.0"],\
+          ["@semantic-release/npm", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:12.0.1"],\
           ["gitmojis", "npm:3.14.0"],\
           ["postcss", "npm:8.4.38"],\
           ["prop-types", "npm:15.8.1"],\
@@ -12029,6 +12046,25 @@ const RAW_RUNTIME_STATE =
           ["strip-final-newline", "npm:3.0.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:9.0.1", {\
+        "packageLocation": "./.yarn/cache/execa-npm-9.0.1-5d2292c1b3-4a0e3a687e.zip/node_modules/execa/",\
+        "packageDependencies": [\
+          ["execa", "npm:9.0.1"],\
+          ["@sindresorhus/merge-streams", "npm:4.0.0"],\
+          ["cross-spawn", "npm:7.0.3"],\
+          ["figures", "npm:6.1.0"],\
+          ["get-stream", "npm:9.0.1"],\
+          ["human-signals", "npm:7.0.0"],\
+          ["is-plain-obj", "npm:4.1.0"],\
+          ["is-stream", "npm:4.0.1"],\
+          ["npm-run-path", "npm:5.3.0"],\
+          ["pretty-ms", "npm:9.0.0"],\
+          ["signal-exit", "npm:4.1.0"],\
+          ["strip-final-newline", "npm:4.0.0"],\
+          ["yoctocolors", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["exit", [\
@@ -12321,6 +12357,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/figures-npm-6.0.1-2993bb3561-1bd53404e4.zip/node_modules/figures/",\
         "packageDependencies": [\
           ["figures", "npm:6.0.1"],\
+          ["is-unicode-supported", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:6.1.0", {\
+        "packageLocation": "./.yarn/cache/figures-npm-6.1.0-af5576db56-9159df4264.zip/node_modules/figures/",\
+        "packageDependencies": [\
+          ["figures", "npm:6.1.0"],\
           ["is-unicode-supported", "npm:2.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -13004,6 +13048,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/get-stream-npm-8.0.1-c921b4840e-5c2181e982.zip/node_modules/get-stream/",\
         "packageDependencies": [\
           ["get-stream", "npm:8.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:9.0.1", {\
+        "packageLocation": "./.yarn/cache/get-stream-npm-9.0.1-2e58b883c0-d70e73857f.zip/node_modules/get-stream/",\
+        "packageDependencies": [\
+          ["get-stream", "npm:9.0.1"],\
+          ["@sec-ant/readable-stream", "npm:0.4.1"],\
+          ["is-stream", "npm:4.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -13897,6 +13950,13 @@ const RAW_RUNTIME_STATE =
           ["human-signals", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.0.0", {\
+        "packageLocation": "./.yarn/cache/human-signals-npm-7.0.0-494fbdaf96-ce0c6d62d2.zip/node_modules/human-signals/",\
+        "packageDependencies": [\
+          ["human-signals", "npm:7.0.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["humanize-ms", [\
@@ -14691,6 +14751,13 @@ const RAW_RUNTIME_STATE =
           ["is-plain-obj", "npm:3.0.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:4.1.0", {\
+        "packageLocation": "./.yarn/cache/is-plain-obj-npm-4.1.0-a4f2a92b44-32130d651d.zip/node_modules/is-plain-obj/",\
+        "packageDependencies": [\
+          ["is-plain-obj", "npm:4.1.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["is-plain-object", [\
@@ -14791,6 +14858,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/is-stream-npm-3.0.0-a77ac9a62e-eb2f7127af.zip/node_modules/is-stream/",\
         "packageDependencies": [\
           ["is-stream", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:4.0.1", {\
+        "packageLocation": "./.yarn/cache/is-stream-npm-4.0.1-328fd196cc-2706c7f19b.zip/node_modules/is-stream/",\
+        "packageDependencies": [\
+          ["is-stream", "npm:4.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -17723,6 +17797,14 @@ const RAW_RUNTIME_STATE =
           ["path-key", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:5.3.0", {\
+        "packageLocation": "./.yarn/cache/npm-run-path-npm-5.3.0-193efca236-124df74820.zip/node_modules/npm-run-path/",\
+        "packageDependencies": [\
+          ["npm-run-path", "npm:5.3.0"],\
+          ["path-key", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["npm-user-validate", [\
@@ -18397,6 +18479,15 @@ const RAW_RUNTIME_STATE =
           ["index-to-position", "npm:0.1.0"],\
           ["json-parse-even-better-errors", "npm:3.0.0"],\
           ["type-fest", "npm:4.6.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["parse-ms", [\
+      ["npm:4.0.0", {\
+        "packageLocation": "./.yarn/cache/parse-ms-npm-4.0.0-2360c34597-a7900f4f1e.zip/node_modules/parse-ms/",\
+        "packageDependencies": [\
+          ["parse-ms", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -20468,6 +20559,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["pretty-ms", [\
+      ["npm:9.0.0", {\
+        "packageLocation": "./.yarn/cache/pretty-ms-npm-9.0.0-222d3adc0f-ba4a2acd1f.zip/node_modules/pretty-ms/",\
+        "packageDependencies": [\
+          ["pretty-ms", "npm:9.0.0"],\
+          ["parse-ms", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["prismjs", [\
       ["npm:1.27.0", {\
         "packageLocation": "./.yarn/cache/prismjs-npm-1.27.0-ca4e1667c6-841cbf53e8.zip/node_modules/prismjs/",\
@@ -20945,7 +21046,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/exec", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:6.0.3"],\
           ["@semantic-release/git", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:10.0.1"],\
           ["@semantic-release/github", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:10.0.3"],\
-          ["@semantic-release/npm", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:12.0.0"],\
+          ["@semantic-release/npm", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:12.0.1"],\
           ["gitmojis", "npm:3.14.0"],\
           ["semantic-release", "npm:23.0.8"],\
           ["semantic-release-gitmoji", "virtual:6dfa37f4185f34fba1ee377d72f97faa7bb76d0a5aabcb2d054588e5a7ee71c5946b603a5d6641486352c8f09d28549cb026fb370d1f20f30c57adb58b31144f#npm:1.6.5"],\
@@ -22043,7 +22144,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/commit-analyzer", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:12.0.0"],\
           ["@semantic-release/error", "npm:4.0.0"],\
           ["@semantic-release/github", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:10.0.3"],\
-          ["@semantic-release/npm", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:12.0.0"],\
+          ["@semantic-release/npm", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:12.0.1"],\
           ["@semantic-release/release-notes-generator", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:13.0.0"],\
           ["aggregate-error", "npm:5.0.0"],\
           ["cosmiconfig", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:9.0.0"],\
@@ -23129,6 +23230,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/strip-final-newline-npm-3.0.0-7972cbec8b-a771a17901.zip/node_modules/strip-final-newline/",\
         "packageDependencies": [\
           ["strip-final-newline", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:4.0.0", {\
+        "packageLocation": "./.yarn/cache/strip-final-newline-npm-4.0.0-4dfc6b8843-b0cf2b62d5.zip/node_modules/strip-final-newline/",\
+        "packageDependencies": [\
+          ["strip-final-newline", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -25685,6 +25793,15 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }]\
+    ]],\
+    ["yoctocolors", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "./.yarn/cache/yoctocolors-npm-2.0.0-f1f9532a48-994f5d99e7.zip/node_modules/yoctocolors/",\
+        "packageDependencies": [\
+          ["yoctocolors", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
     ]]\
   ]\
 }';
@@ -27011,6 +27128,12 @@ class ProxiedFS extends FakeFS {
   rmdirSync(p, opts) {
     return this.baseFs.rmdirSync(this.mapToBase(p), opts);
   }
+  async rmPromise(p, opts) {
+    return this.baseFs.rmPromise(this.mapToBase(p), opts);
+  }
+  rmSync(p, opts) {
+    return this.baseFs.rmSync(this.mapToBase(p), opts);
+  }
   async linkPromise(existingP, newP) {
     return this.baseFs.linkPromise(this.mapToBase(existingP), this.mapToBase(newP));
   }
@@ -27391,6 +27514,18 @@ class NodeFS extends BasePortableFakeFS {
   }
   rmdirSync(p, opts) {
     return this.realFs.rmdirSync(npath.fromPortablePath(p), opts);
+  }
+  async rmPromise(p, opts) {
+    return await new Promise((resolve, reject) => {
+      if (opts) {
+        this.realFs.rm(npath.fromPortablePath(p), opts, this.makeCallback(resolve, reject));
+      } else {
+        this.realFs.rm(npath.fromPortablePath(p), this.makeCallback(resolve, reject));
+      }
+    });
+  }
+  rmSync(p, opts) {
+    return this.realFs.rmSync(npath.fromPortablePath(p), opts);
   }
   async linkPromise(existingP, newP) {
     return await new Promise((resolve, reject) => {
@@ -28047,6 +28182,20 @@ class MountFS extends BasePortableFakeFS {
       return mountFs.rmdirSync(subPath, opts);
     });
   }
+  async rmPromise(p, opts) {
+    return await this.makeCallPromise(p, async () => {
+      return await this.baseFs.rmPromise(p, opts);
+    }, async (mountFs, { subPath }) => {
+      return await mountFs.rmPromise(subPath, opts);
+    });
+  }
+  rmSync(p, opts) {
+    return this.makeCallSync(p, () => {
+      return this.baseFs.rmSync(p, opts);
+    }, (mountFs, { subPath }) => {
+      return mountFs.rmSync(subPath, opts);
+    });
+  }
   async linkPromise(existingP, newP) {
     return await this.makeCallPromise(newP, async () => {
       return await this.baseFs.linkPromise(existingP, newP);
@@ -28685,6 +28834,7 @@ const SYNC_IMPLEMENTATIONS = /* @__PURE__ */ new Set([
   `realpathSync`,
   `renameSync`,
   `rmdirSync`,
+  `rmSync`,
   `statSync`,
   `symlinkSync`,
   `truncateSync`,
@@ -28720,6 +28870,7 @@ const ASYNC_IMPLEMENTATIONS = /* @__PURE__ */ new Set([
   `readlinkPromise`,
   `renamePromise`,
   `rmdirPromise`,
+  `rmPromise`,
   `statPromise`,
   `symlinkPromise`,
   `truncatePromise`,
@@ -30743,6 +30894,27 @@ class ZipFS extends BasePortableFakeFS {
     const index = this.entries.get(resolvedP);
     if (typeof index === `undefined`)
       throw EINVAL(`rmdir '${p}'`);
+    this.deleteEntry(p, index);
+  }
+  async rmPromise(p, opts) {
+    return this.rmSync(p, opts);
+  }
+  rmSync(p, { recursive = false } = {}) {
+    if (this.readOnly)
+      throw EROFS(`rm '${p}'`);
+    if (recursive) {
+      this.removeSync(p);
+      return;
+    }
+    const resolvedP = this.resolveFilename(`rm '${p}'`, p);
+    const directoryListing = this.listings.get(resolvedP);
+    if (!directoryListing)
+      throw ENOTDIR(`rm '${p}'`);
+    if (directoryListing.size > 0)
+      throw ENOTEMPTY(`rm '${p}'`);
+    const index = this.entries.get(resolvedP);
+    if (typeof index === `undefined`)
+      throw EINVAL(`rm '${p}'`);
     this.deleteEntry(p, index);
   }
   hydrateDirectory(resolvedP) {
