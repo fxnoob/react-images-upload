@@ -2,14 +2,14 @@
   "name": "react-images-upload",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://github.com/bryanjtc/react-images-upload",
+  "homepage": "https://github.com/fxnoob/react-images-upload",
   "author": {
-    "name": "bryanjtc",
-    "email": "49354825+bryanjtc@users.noreply.github.com"
+    "name": "fxnoob",
+    "email": "fxboob@users.noreply.github.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bryanjtc/react-images-upload.git"
+    "url": "https://github.com/fxnoob/react-images-upload.git"
   },
   "workspaces": [
     "packages/**"
